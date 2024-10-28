@@ -1,6 +1,6 @@
 # Cygnus-Keymap
 
-My cygnus keymap, 3x6 keys + 3 thumb keys. Bought from <http://e.tb.cn/h.gC9ZsnZl98LEgAc?tk=Ek2y3Mp8ji2> (called 天鹅座).
+My cygnus keymap, 3x6 keys + 3 thumb keys.
 
 <p align="center">
   <img
