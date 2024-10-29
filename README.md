@@ -19,15 +19,15 @@ The keymap is based on the standard qwerty layout, which I am used to. The layou
 
 ### Layer-0
 
-<img width="1680" alt="image" src="https://github.com/user-attachments/assets/c096df17-7020-4444-aa58-02ac75f7c526">
+![Layer-0](https://github.com/user-attachments/assets/be44a776-97a7-445a-9fb6-fc581ac3f032)
 
 ### Layer-1
 
-<img width="1680" alt="image" src="https://github.com/user-attachments/assets/047c8f53-2927-413d-915c-ee6de48f2c0d">
+![Layer-1](https://github.com/user-attachments/assets/4b3220ae-fb42-4a73-99b3-d1bd5d20e3b4)
 
 ### Layer-2
 
-<img width="1680" alt="image" src="https://github.com/user-attachments/assets/fb02ae3a-9eb0-4854-8523-ec72274a3f84">
+![Layer-2](https://github.com/user-attachments/assets/7476abd3-35b6-4391-888e-f3c33f1808be)
 
 There are 3 special keys to switch between different layers: `MO(x)` on the left thumb, `TO(x)` and `User x` on the right thumb.
 
