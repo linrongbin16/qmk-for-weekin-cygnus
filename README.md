@@ -17,7 +17,7 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 ## Layers
 
-The keymap is based on the standard _**QWERTY**_ layout, which I am used to. Three layers are been created:
+The keymap is based on the standard **QWERTY** layout, which I am used to. Three layers are been created:
 
 - L0: Alphabet keys and some keys around them (`ctrl`, `cmd`, `enter`, etc).
 - L1: Symbol (`-`, `=`, `,`, `"`, etc), number (`1`-`9`) and navigation (`Up`, `Down`, `Left`, `Right`) keys around the alpha keys.
