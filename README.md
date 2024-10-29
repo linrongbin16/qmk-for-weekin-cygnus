@@ -34,7 +34,9 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
 
 ## Generate Keymap Layout
 
-1. Create the keymap by [Vial](https://get.vial.today/), and save the firmware into the `Cygnus-Keymap.vil` file.
-2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `Cygnus-Keymap.vil` file to `Cygnus-Keymap.yml` file. Note: Choose _**Keyboard Kind**_ as `splitkb/aurora/corne/rev1` , choose _**Layout Name**_ as `LAYOUT_split_3x6_3`. Because it is the closest keyboard from all of the qmk layouts.
-3. Open the `Cygnus-Keymap.yml` file and delete all the `- -1` items in `layers`, to fix the incompatible issue with the qmk layout.
-4. Paste the contents of the `Cygnus-Keymap.yml` to the _**Keymap YAML**_ part of [Keymap Drawer](https://keymap-drawer.streamlit.app/), click the _**Run**_ button, then we have the generated keymap image.
+1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
+2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `Cygnus-Keymap.vil` file to `Cygnus-Keymap.yml` file.
+   - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
+   - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
+   - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
+4. Copy the converted yml contents, and paste to the _**"Keymap YAML"**_ section of [Keymap Drawer](https://keymap-drawer.streamlit.app/), click the _**"Run"**_ button.
