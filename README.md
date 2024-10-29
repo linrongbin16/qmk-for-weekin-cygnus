@@ -17,9 +17,7 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 > Left - Right
 
-## Layers
-
-The keymap is based on the standard qwerty layout, which I am used to.
+The keymap is based on the standard qwerty layout, which I am used to. The layout is edited with: <https://get.vial.today/>.
 
 ### Layer-0
 
