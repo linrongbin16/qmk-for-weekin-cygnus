@@ -21,15 +21,15 @@ The keymap is based on the standard qwerty layout, which I am used to. The layou
 
 #### Layer-0
 
-![Layer-0](https://github.com/user-attachments/assets/be44a776-97a7-445a-9fb6-fc581ac3f032)
+![Layer-0](Layer-0.jpg)
 
 #### Layer-1
 
-![Layer-1](https://github.com/user-attachments/assets/4b3220ae-fb42-4a73-99b3-d1bd5d20e3b4)
+![Layer-1](Layer-1.jpg)
 
 #### Layer-2
 
-![Layer-2](https://github.com/user-attachments/assets/7476abd3-35b6-4391-888e-f3c33f1808be)
+![Layer-2](Layer-2.jpg)
 
 ## Special Keys
 
