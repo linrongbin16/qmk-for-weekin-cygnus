@@ -17,16 +17,14 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 > Left - Right
 
-The keymap is based on the standard qwerty layout, which I am used to. The layout is edited with: <https://get.vial.today/>.
+The keymap is based on the standard qwerty layout, which I am used to. The layout is edited with: <https://get.vial.today/>. I set 3 layers for alphabet keys, number/punctuation keys and F/numpad keys.
 
-### Layer-0
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/c096df17-7020-4444-aa58-02ac75f7c526">
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/047c8f53-2927-413d-915c-ee6de48f2c0d">
+<img width="1680" alt="image" src="https://github.com/user-attachments/assets/fb02ae3a-9eb0-4854-8523-ec72274a3f84">
 
-By default the layer-0 is the alphabet keys (a-z), and two columns (tab/capslock/shift on the left, enter/shift on the righr) around the alphas. The thumb keys are also the same with standard qwerty keyboard, i.e. alt (or command key on mac) and space.
+NOTE: There are 3 special keys to switch between different layers: `MO(x)` on the left thumb, `TO(x)` and `User x` on the right thumb.
 
-But there are 2 special keys been set to [MO and TO](https://get.vial.today/manual/layers.html#moving-between-layers), we will discuss this later.
+To momentarily typing some symbols/numbers/etc, press `MO(x)` to switch to other layers, then release it to go back to default layer-0.
 
-### Layer-1
-
-Layer-1 is the extention of the alphas, mostly for those symbols such as `,.()+-@*?!`, numbers (1-9).
-
-They also follow a similar layout with standard qwerty keyboard, so I won't feel confused when switch to layer-1.
+To long time typing symbols/numbers/etc, press `TO(x)` to go to other layers and done the work, then press `TO(x)` to go back to default layer-0.
