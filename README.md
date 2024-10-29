@@ -35,8 +35,8 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
 ## Generate Keymap Layout
 
 1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
-2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `Cygnus-Keymap.vil` file to `Cygnus-Keymap.yml` file.
+2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `Cygnus-Keymap.vil` file to yaml contents.
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
-4. Copy the converted yml contents, and paste to the _**"Keymap YAML"**_ section of [Keymap Drawer](https://keymap-drawer.streamlit.app/), click the _**"Run"**_ button.
+4. Copy the converted yaml contents, and paste to the _**"Keymap YAML"**_ section of [Keymap Drawer](https://keymap-drawer.streamlit.app/), click the _**"Run"**_ button.
