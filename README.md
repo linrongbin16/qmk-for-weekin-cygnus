@@ -1,6 +1,6 @@
 # Cygnus-Keymap
 
-My cygnus keymap, 3x6 keys + 3 thumb keys.
+My cygnus split keyboard keymap, 3x6 + 3 thumb keys.
 
 <p align="center">
   <img
