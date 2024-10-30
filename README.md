@@ -39,7 +39,10 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
-3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG/PNG pictures.
+3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
    - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
    - Click the _**"Run"**_ button.
-   - Click the _**Export**_ section and download the SVG/PNG pictures.
+   - Click the _**Export**_ section and download the SVG file.
+4. Use the [librsvg](https://wiki.gnome.org/Projects/LibRsvg) to convert SVG to PNG.
+   - Install _**librsvg**_ with `brew install librsvg`.
+   - Run command `rsvg-convert -z 2 my_keymap.svg > my_keymap.png`.
