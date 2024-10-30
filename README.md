@@ -41,9 +41,7 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
 
-   > [!NOTE]
-   >
-   > You can directly upload [settings.json](settings.json), it is a already configured settings for this tool.
+   > NOTE: You can directly upload [settings.json](settings.json), it is a already configured settings for this tool.
 
 3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
 
@@ -55,9 +53,7 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
      - `combo_h=36` (combo key height)
    - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
 
-   > [!NOTE]
-   >
-   > You can directly upload [my_config.yaml](my_config.yaml), it is a already configured configurations for this tool.
+   > NOTE: You can directly upload [my_config.yaml](my_config.yaml), it is a already configured configurations for this tool.
 
 4. Use the [librsvg](https://wiki.gnome.org/Projects/LibRsvg) to convert SVG to PNG.
    - Install _**librsvg**_ with `brew install librsvg`.
