@@ -41,8 +41,12 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
 3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
    - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
-   - Click the _**"Run"**_ button.
-   - Click the _**Export**_ section and download the SVG file.
+   - Update the _**Configuration**_ with larger size:
+     - `key_w=74` (key width)
+     - `key_h=70` (key height)
+     - `combo_w=38` (combo key width)
+     - `combo_h=36` (combo key height)
+   - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
 4. Use the [librsvg](https://wiki.gnome.org/Projects/LibRsvg) to convert SVG to PNG.
    - Install _**librsvg**_ with `brew install librsvg`.
    - Run command `rsvg-convert -z 2 my_keymap.svg > my_keymap.png`.
