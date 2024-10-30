@@ -54,7 +54,3 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
 
    > NOTE: You can directly upload [my_config.yaml](my_config.yaml), it is a already configured configurations for this tool.
-
-4. Use the [librsvg](https://wiki.gnome.org/Projects/LibRsvg) to convert SVG to PNG.
-   - Install _**librsvg**_ with `brew install librsvg`.
-   - Run command `rsvg-convert -z 2 my_keymap.svg > my_keymap.png`.
