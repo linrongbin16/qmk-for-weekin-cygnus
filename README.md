@@ -19,11 +19,11 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 The keymap is based on the standard **QWERTY** layout, which I am used to. Three layers are been created:
 
-- L0: Alphabet keys and some keys around them (`ctrl`, `cmd`, `enter`, etc).
+- L0: Alphabet keys (`a`-`z`) and some keys around them (`ctrl`, `cmd`, `enter`, etc).
 - L1: Symbol (`-`, `=`, `,`, `"`, etc), number (`1`-`9`) and navigation (`Up`, `Down`, `Left`, `Right`) keys around the alpha keys.
 - L2: Function (`F1`-`F12`), numpad (`1`-`9`, `+`, `-`, `.`, etc) and other keys.
 
-![keymap](Cygnus-Keymap.svg)
+![keymap](my_keymap.svg)
 
 ## Special Keys
 
@@ -39,4 +39,7 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
-4. Copy the converted yaml contents, and paste to the _**"Keymap YAML"**_ section of [Keymap Drawer](https://keymap-drawer.streamlit.app/), click the _**"Run"**_ button.
+3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG/PNG pictures.
+   - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
+   - Click the _**"Run"**_ button.
+   - Click the _**Export**_ section and download the SVG/PNG pictures.
