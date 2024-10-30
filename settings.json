@@ -1,0 +1,28 @@
+{
+	"resourceType": "https://yal-tools.github.io/vial-to-keymap-drawer/",
+	"fields": {
+		"notes": [],
+		"keyboard": "splitkb/aurora/corne/rev1",
+		"layout": "LAYOUT_split_3x6_3",
+		"include-layers": "0,1,2",
+		"half-after-half": false,
+		"mirror-right-half": false,
+		"omit-m1": true,
+		"omit-non-keys": "0",
+		"move-defs": [],
+		"key-ranges": [],
+		"encoder-defs": [],
+		"layer-names": [],
+		"key-overrides": [
+			"\"LGui\" => $$mdi.apple-keyboard-command$$",
+			"\"RGui\" => $$mdi.apple-keyboard-command$$",
+			"\"LShift\" => $$mdi.apple-keyboard-shift$$",
+			"\"RShift\" => $$mdi.apple-keyboard-shift$$",
+			"\"LCtrl\" => $$mdi.apple-keyboard-control$$",
+			"\"RCtrl\" => $$mdi.apple-keyboard-control$$",
+			"\"Bksp\" => $$mdi.backspace-outline$$",
+			"\"Tab\" => $$mdi.keyboard-tab$$"
+		],
+		"mark-non-keys": ""
+	}
+}
