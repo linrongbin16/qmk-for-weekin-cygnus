@@ -1,15 +1,15 @@
 draw_config:
-  key_w: 74
-  key_h: 70
+  key_w: 70
+  key_h: 66
   split_gap: 30.0
-  combo_w: 42
-  combo_h: 40
+  combo_w: 38
+  combo_h: 36
   key_rx: 6.0
   key_ry: 6.0
   dark_mode: auto
   n_columns: 1
-  separate_combo_diagrams: false
-  combo_diagrams_scale: 2
+  separate_combo_diagrams: true
+  combo_diagrams_scale: 3
   inner_pad_w: 2.0
   inner_pad_h: 2.0
   outer_pad_w: 30.0
@@ -17,7 +17,7 @@ draw_config:
   line_spacing: 1.2
   arc_radius: 6.0
   append_colon_to_layer_header: true
-  small_pad: 4.0
+  small_pad: 5.0
   legend_rel_x: 0.0
   legend_rel_y: 0.0
   draw_key_sides: true
@@ -209,3 +209,4 @@ parse_config:
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
+
