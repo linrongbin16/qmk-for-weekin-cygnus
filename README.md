@@ -23,18 +23,16 @@ The keymap is based on the standard **QWERTY** layout (which I am used to), work
 - L1: Symbol (`-`, `=`, `,`, `"`, etc), number (`1`-`9`) and navigation (`Up`, `Down`, `Left`, `Right`) keys around the alpha keys.
 - L2: Function (`F1`-`F12`), numpad (`1`-`9`, `+`, `-`, `.`, etc) and other keys.
 
+There are 2 special keys to switch between different layers:
+
+- `MO(x)` on the left thumb: For momentarily typing, hold it and finish the work.
+- `TO(x)` on the right thumb: For long time typing, tap it to go to other layers, finish the work and tap another `TO(x)` to come back.
+
 ![keymap](my_keymap.svg)
 
-## Special Keys
+## Combos
 
-There are 2 special keys to switch between different layers: `MO(x)` on the left thumb, `TO(x)` on the right thumb.
-
-- To momentarily typing some symbols/numbers/etc, press `MO(x)` to switch to other layers, then release it to go back to default layer-0.
-- To long time typing symbols/numbers/etc, press `TO(x)` to go to other layers and done the work, then press `TO(x)` to go back to default layer-0.
-
-## Combo Keys
-
-There are some combo keys for very commonly used symbols to improve the typing efficiency.
+There are some combos for very commonly used symbols to improve the typing efficiency.
 
 ![keymap_L0](my_keymap_L0.svg)
 
