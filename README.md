@@ -32,6 +32,14 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
 - To momentarily typing some symbols/numbers/etc, press `MO(x)` to switch to other layers, then release it to go back to default layer-0.
 - To long time typing symbols/numbers/etc, press `TO(x)` to go to other layers and done the work, then press `TO(x)` to go back to default layer-0.
 
+## Combo Keys
+
+There are some combo keys for very commonly used symbols to improve the typing efficiency.
+
+![keymap_L0](my_keymap_L0.svg)
+
+![keymap_L1](my_keymap_L1.svg)
+
 ## Generate Keymap Layout
 
 1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
