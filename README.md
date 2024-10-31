@@ -41,16 +41,11 @@ There are 2 special keys to switch between different layers: `MO(x)` on the left
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
 
-   > NOTE: You can directly upload [settings.json](settings.json), it is a already configured settings for this tool.
+   > NOTE: You can directly upload [settings.json](settings.json) with the _**Load Settings**_ button.
 
 3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
 
    - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
-   - Update the _**Configuration**_ with larger size:
-     - `key_w=74` (key width)
-     - `key_h=70` (key height)
-     - `combo_w=38` (combo key width)
-     - `combo_h=36` (combo key height)
    - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
 
-   > NOTE: You can directly upload [my_config.yaml](my_config.yaml), it is a already configured configurations for this tool.
+   > NOTE: You can directly copy [my_config.yaml](my_config.yaml) and paste to the _**Raw configuration**_ of the _**Configuration**_ section.
