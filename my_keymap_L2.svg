@@ -1,4 +1,4 @@
-<svg width="1070" height="436" viewBox="0 0 1070 436" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1090" height="436" viewBox="0 0 1090 436" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi.apple-keyboard-command">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-command</title><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
@@ -147,7 +147,7 @@ path.combo { stroke: #7f7f7f; }
 }
 
 svg.keymap { background-color: #FFF; }</style>
-<g transform="translate(40, 0)" class="layer-L2">
+<g transform="translate(50, 0)" class="layer-L2">
 <text x="0" y="28" class="label" id="L2">L2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(33, 58)" class="key keypos-0">
@@ -366,4 +366,4 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 </g>
 </g>
-<text x="1030.0" y="408.0" class="footer">Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>
+<text x="1040.0" y="408.0" class="footer">Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>
