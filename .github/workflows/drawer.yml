@@ -15,7 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: |
+      - name: Generate Keymap YAML
+        run: |
+          sudo add-apt-repository ppa:haxe/releases -y
+          sudo apt-get update
+          sudo apt-get install haxe -y
+          mkdir ~/haxelib && haxelib setup ~/haxelib
+      - name: Generate SVG
+        run: |
           python3 ./process.py
           pipx install keymap-drawer
           keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml >my_keymap.svg
