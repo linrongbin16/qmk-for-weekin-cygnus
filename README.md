@@ -30,14 +30,6 @@ There are 2 special keys to switch between different layers:
 
 ![keymap](my_keymap.svg)
 
-## Combos
-
-There are some combos for very commonly used symbols to improve the typing efficiency.
-
-![keymap_L0](my_keymap_L0.svg)
-
-![keymap_L1](my_keymap_L1.svg)
-
 ## Generate Keymap Layout
 
 1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
