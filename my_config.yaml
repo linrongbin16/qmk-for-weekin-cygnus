@@ -10,7 +10,7 @@ draw_config:
   n_columns: 1
   separate_combo_diagrams: false
   combo_diagrams_scale: 2
-  inner_pad_w: 2.0
+  inner_pad_w: 4.0
   inner_pad_h: 4.0
   outer_pad_w: 50.0
   outer_pad_h: 56.0
