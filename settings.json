@@ -25,10 +25,7 @@
       "\"Left\" => $$mdi.arrow-left$$",
       "\"Up\" => $$mdi.arrow-up$$",
       "\"Down\" => $$mdi.arrow-down$$",
-      "\"Right\" => $$mdi.arrow-right$$",
-      "\"USER00\" => User0",
-      "\"USER01\" => User1",
-      "\"USER02\" => User2"
+      "\"Right\" => $$mdi.arrow-right$$"
     ],
     "mark-non-keys": ""
   }
