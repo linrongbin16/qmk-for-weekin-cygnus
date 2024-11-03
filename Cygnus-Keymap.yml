@@ -62,10 +62,10 @@ layers:
     - {"s":"_","t":"-"}
     - {"s":"+","t":"="}
     - {"s":"LSFT+","t":"+"}
-    - Left
-    - Down
-    - Up
-    - Right
+    - "$$mdi.arrow-left$$"
+    - "$$mdi.arrow-down$$"
+    - "$$mdi.arrow-up$$"
+    - "$$mdi.arrow-right$$"
     - "*"
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
