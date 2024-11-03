@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - "Cygnus-Keymap.yml"
+      - "my_config.yaml"
   workflow_dispatch:
 concurrency:
   group: ${{ github.ref }}
