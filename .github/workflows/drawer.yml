@@ -15,17 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate Keymap YAML
-        run: |
-          sudo add-apt-repository ppa:haxe/releases -y
-          sudo apt-get update
-          sudo apt-get install haxe -y
-          mkdir ~/haxelib && haxelib setup ~/haxelib
-          git clone --depth=1 https://github.com/YAL-Tools/vial-to-keymap-drawer.git ~/vial-to-keymap-drawer
-          CURRENT_WORKING_DIR="$PWD"
-          cd ~/vial-to-keymap-drawer
-          haxe build-neko.hxml
-          neko ./VialToKeymapDrawer.n --help
       - name: Generate SVG
         run: |
           python3 ./process.py
