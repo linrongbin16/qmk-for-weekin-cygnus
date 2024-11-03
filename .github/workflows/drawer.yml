@@ -17,6 +17,6 @@ jobs:
       - run: |
           pipx install keymap-drawer
           keymap -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
-          echo "draw"
-          ls -la
+          echo "git status"
+          git status
         
