@@ -71,9 +71,9 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
-    - USER00
-    - USER01
-    - USER02
+    - User0
+    - User1
+    - User2
     - Home
     - "Page\nUp"
     - "Page\nDown"
