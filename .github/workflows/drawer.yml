@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           pipx install keymap-drawer
-          keymap-drawer -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
+          keymap -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
           echo "draw"
           ls -la
         
