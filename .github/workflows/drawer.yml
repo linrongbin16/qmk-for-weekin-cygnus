@@ -14,9 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
       - run: |
-          sudo pip install keymap-drawer
+          pipx install keymap-drawer
           keymap-drawer -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
           echo "draw"
           ls -la
