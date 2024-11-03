@@ -1,0 +1,153 @@
+layout: {"qmk_keyboard":"splitkb/aurora/corne/rev1","qmk_layout":"LAYOUT_split_3x6_3"}
+layers:
+  L0:
+    - "$$mdi.keyboard-tab$$"
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - {"s":"|","t":"\\"}
+    - "$$mdi.apple-keyboard-control$$"
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - {"s":":","t":";"}
+    - Enter
+    - "$$mdi.apple-keyboard-shift$$"
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - {"s":"<","t":","}
+    - {"s":">","t":"."}
+    - {"s":"?","t":"/"}
+    - "$$mdi.apple-keyboard-shift$$"
+    - "$$mdi.apple-keyboard-command$$"
+    - Space
+    - {"t":"MO L1","type":"held"}
+    - "TO L1"
+    - "$$mdi.backspace-outline$$"
+    - "$$mdi.apple-keyboard-command$$"
+  L1:
+    - {"s":"~","t":"`"}
+    - {"s":"!","t":"1"}
+    - {"s":"@","t":"2"}
+    - {"s":"#","t":"3"}
+    - {"s":"$","t":"4"}
+    - {"s":"%","t":"5"}
+    - {"s":"^","t":"6"}
+    - {"s":"&","t":"7"}
+    - {"s":"*","t":"8"}
+    - {"s":"(","t":"9"}
+    - {"s":")","t":"0"}
+    - {"s":"|","t":"\\"}
+    - "$$mdi.apple-keyboard-control$$"
+    - null
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"_","t":"-"}
+    - {"s":"+","t":"="}
+    - {"s":"LSFT+","t":"+"}
+    - Left
+    - Down
+    - Up
+    - Right
+    - "*"
+    - Enter
+    - "$$mdi.apple-keyboard-shift$$"
+    - null
+    - null
+    - USER00
+    - USER01
+    - USER02
+    - Home
+    - "Page\nUp"
+    - "Page\nDown"
+    - End
+    - "/"
+    - "$$mdi.apple-keyboard-shift$$"
+    - "$$mdi.apple-keyboard-command$$"
+    - Space
+    - {"t":"MO L0","type":"held"}
+    - "TO L0"
+    - "$$mdi.backspace-outline$$"
+    - "$$mdi.apple-keyboard-command$$"
+  L2:
+    - Esc
+    - F10
+    - F7
+    - F8
+    - F9
+    - ","
+    - ","
+    - "7"
+    - "8"
+    - "9"
+    - "+"
+    - "-"
+    - "$$mdi.apple-keyboard-control$$"
+    - F11
+    - F4
+    - F5
+    - F6
+    - "."
+    - "."
+    - "4"
+    - "5"
+    - "6"
+    - "*"
+    - Enter
+    - "$$mdi.apple-keyboard-shift$$"
+    - F12
+    - F1
+    - F2
+    - F3
+    - "="
+    - "0"
+    - "1"
+    - "2"
+    - "3"
+    - "/"
+    - "$$mdi.apple-keyboard-shift$$"
+    - "$$mdi.apple-keyboard-command$$"
+    - Space
+    - "TO L0"
+    - "TO L0"
+    - "$$mdi.backspace-outline$$"
+    - "$$mdi.apple-keyboard-command$$"
+combos:
+  - {"d": true, "k": "Esc", "l": ["L0"], "p": [2, 15]}
+  - {"d": true, "k": {"t": "("}, "l": ["L0"], "p": [4, 17]}
+  - {"d": true, "k": {"t": ")"}, "l": ["L0"], "p": [7, 18]}
+  - {"d": true, "k": {"t": "["}, "l": ["L0"], "p": [16, 29]}
+  - {"d": true, "k": {"t": "]"}, "l": ["L0"], "p": [19, 30]}
+  - {"d": true, "k": {"t": "{"}, "l": ["L0"], "p": [28, 37]}
+  - {"d": true, "k": {"t": "}"}, "l": ["L0"], "p": [31, 40]}
+  - {"d": true, "k": "Esc", "l": ["L1"], "p": [2, 15]}
+  - {"d": true, "k": {"t": "("}, "l": ["L1"], "p": [4, 17]}
+  - {"d": true, "k": {"t": ")"}, "l": ["L1"], "p": [7, 18]}
+  - {"d": true, "k": {"t": "["}, "l": ["L1"], "p": [16, 29]}
+  - {"d": true, "k": {"t": "]"}, "l": ["L1"], "p": [19, 30]}
+  - {"d": true, "k": {"t": "{"}, "l": ["L1"], "p": [28, 37]}
+  - {"d": true, "k": {"t": "}"}, "l": ["L1"], "p": [31, 40]}
+  - {"d": true, "k": "TO L2", "l": ["L1"], "p": [38, 39]}
+  - {"d": true, "k": "TO L2", "l": ["L0"], "p": [38, 39]}
+  - {"d": true, "k": {"t": "'"}, "l": ["L0"], "p": [14, 27]}
+  - {"d": true, "k": {"t": "\""}, "l": ["L0"], "p": [21, 32]}
+  - {"d": true, "k": {"t": "'"}, "l": ["L1"], "p": [14, 27]}
+  - {"d": true, "k": {"t": "\""}, "l": ["L1"], "p": [21, 32]}
+

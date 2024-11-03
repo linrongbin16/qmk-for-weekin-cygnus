@@ -15,8 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
+          python3 ./process.py
           pipx install keymap-drawer
-          keymap -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
+          keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml >my_keymap.svg
           echo "git status"
           git status
-        
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(SVG): auto update SVG pictures"
