@@ -1,0 +1,23 @@
+name: Drawer
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Cygnus-Keymap.yml"
+  workflow_dispatch:
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - run: |
+          python -m pip install --user keymap-drawer
+          python -m keymap-drawer -c my_config.yaml draw Cygnus-Keymap.yml >my_keymap.svg
+          echo "draw"
+          ls -la
+        
