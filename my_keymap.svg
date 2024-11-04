@@ -164,7 +164,8 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-}</style>
+}
+svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(50, 0)" class="layer-L0">
 <text x="0" y="28" class="label" id="L0">L0:</text>
 <g transform="translate(0, 56)">
