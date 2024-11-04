@@ -417,9 +417,8 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(93, 116)" class="key keypos-13">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">User</tspan><tspan x="0" dy="1.2em">4</tspan>
-</text>
+<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="-25" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(155, 101)" class="key keypos-14">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -459,7 +458,8 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(837, 116)" class="key keypos-22">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">*</text>
+<text x="0" y="0" class="key tap">&quot;</text>
+<text x="0" y="-25" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(899, 116)" class="key keypos-23">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -477,9 +477,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(217, 155)" class="key keypos-27">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">User</tspan><tspan x="0" dy="1.2em">0</tspan>
-</text>
 </g>
 <g transform="translate(279, 163)" class="key keypos-28">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -515,7 +512,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(837, 178)" class="key keypos-34">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">/</text>
 </g>
 <g transform="translate(899, 178)" class="key keypos-35">
 <rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key"/>

@@ -1,4 +1,4 @@
-<svg width="1055" height="2884" viewBox="0 0 1055 2884" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1055" height="2640" viewBox="0 0 1055 2640" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi.apple-keyboard-command">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-command</title><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
@@ -412,8 +412,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -463,8 +463,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(124, 177)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -546,8 +546,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -600,8 +600,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -671,8 +671,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -743,8 +743,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -814,8 +814,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -868,8 +868,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -939,8 +939,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1011,8 +1011,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1082,8 +1082,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1136,8 +1136,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -1207,8 +1207,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1279,8 +1279,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1350,8 +1350,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1401,8 +1401,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(124, 177)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1484,8 +1484,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1538,8 +1538,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -1609,8 +1609,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1681,8 +1681,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1752,8 +1752,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1806,8 +1806,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -1877,8 +1877,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -1949,8 +1949,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2020,8 +2020,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2074,8 +2074,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -2145,8 +2145,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(140, 114)" class="key keypos-17">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(170, 118)" class="key keypos-18">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2217,8 +2217,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(341, 177)" class="key keypos-42">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2560,8 +2560,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+<g transform="translate(326, 114)" class="key keypos-20">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 <g transform="translate(356, 110)" class="key keypos-21">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2611,8 +2611,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(124, 177)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
@@ -2685,140 +2685,6 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(108, 110)" class="key keypos-16">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(170, 118)" class="key keypos-18">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 118)" class="key keypos-19">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(326, 114)" class="key keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(356, 110)" class="key keypos-21">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 114)" class="key held keypos-22">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(418, 122)" class="key held keypos-23">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(450, 122)" class="key keypos-24">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(16, 153)" class="key keypos-25">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 153)" class="key keypos-26">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(78, 145)" class="key keypos-27">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(108, 142)" class="key keypos-28">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(140, 145)" class="key keypos-29">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(170, 149)" class="key keypos-30">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 149)" class="key keypos-31">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(326, 145)" class="key keypos-32">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(356, 142)" class="key keypos-33">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 145)" class="key keypos-34">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(418, 153)" class="key keypos-35">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(450, 153)" class="key keypos-36">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(124, 177)" class="key keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
-<rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
-</g>
-<g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
-<rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
-</g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(341, 177)" class="key keypos-42">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-</g>
-</g>
-<g transform="translate(50, 2584)" class="layer-combopos-18">
-<g transform="translate(0, 28)">
-<g transform="translate(31, 31)" class="key  combo-separate keypos-0">
-<rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">&#x27;</text>
-</g>
-<g transform="translate(16, 91)" class="key keypos-1">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 91)" class="key keypos-2">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(78, 83)" class="key keypos-3">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(108, 80)" class="key keypos-4">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(140, 83)" class="key keypos-5">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(170, 87)" class="key keypos-6">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 87)" class="key keypos-7">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(326, 83)" class="key keypos-8">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(356, 80)" class="key keypos-9">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 83)" class="key keypos-10">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(418, 91)" class="key keypos-11">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(450, 91)" class="key keypos-12">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(16, 122)" class="key keypos-13">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 122)" class="key held keypos-14">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(78, 114)" class="key held keypos-15">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(108, 110)" class="key keypos-16">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
 <g transform="translate(140, 114)" class="key keypos-17">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
@@ -2828,140 +2694,6 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(294, 118)" class="key keypos-19">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(326, 114)" class="key held keypos-20">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(356, 110)" class="key keypos-21">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 114)" class="key keypos-22">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(418, 122)" class="key keypos-23">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(450, 122)" class="key keypos-24">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(16, 153)" class="key keypos-25">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 153)" class="key keypos-26">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(78, 145)" class="key keypos-27">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(108, 142)" class="key keypos-28">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(140, 145)" class="key keypos-29">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(170, 149)" class="key keypos-30">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 149)" class="key keypos-31">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(326, 145)" class="key keypos-32">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(356, 142)" class="key keypos-33">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 145)" class="key keypos-34">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(418, 153)" class="key keypos-35">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(450, 153)" class="key keypos-36">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(124, 177)" class="key keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
-<rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
-</g>
-<g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
-<rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
-</g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(341, 177)" class="key keypos-42">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-</g>
-</g>
-<g transform="translate(565, 2584)" class="layer-combopos-19">
-<g transform="translate(0, 28)">
-<g transform="translate(31, 31)" class="key  combo-separate keypos-0">
-<rect rx="6" ry="6" x="-29" y="-29" width="58" height="58" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">&quot;</text>
-</g>
-<g transform="translate(16, 91)" class="key keypos-1">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 91)" class="key keypos-2">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(78, 83)" class="key keypos-3">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(108, 80)" class="key keypos-4">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(140, 83)" class="key keypos-5">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(170, 87)" class="key keypos-6">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 87)" class="key keypos-7">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(326, 83)" class="key keypos-8">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(356, 80)" class="key keypos-9">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(388, 83)" class="key keypos-10">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(418, 91)" class="key keypos-11">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(450, 91)" class="key keypos-12">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(16, 122)" class="key keypos-13">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(46, 122)" class="key keypos-14">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(78, 114)" class="key keypos-15">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(108, 110)" class="key keypos-16">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(140, 114)" class="key held keypos-17">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(170, 118)" class="key keypos-18">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(294, 118)" class="key keypos-19">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
 <g transform="translate(326, 114)" class="key keypos-20">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
@@ -3028,8 +2760,8 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(341, 177)" class="key keypos-42">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+<g transform="translate(341, 177)" class="key held keypos-42">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 </g>
 </g>
