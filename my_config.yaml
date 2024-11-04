@@ -10,8 +10,8 @@ draw_config:
   n_columns: 1
   separate_combo_diagrams: true
   combo_diagrams_scale: 2
-  inner_pad_w: 4.0
-  inner_pad_h: 4.0
+  inner_pad_w: 2.0
+  inner_pad_h: 2.0
   outer_pad_w: 50.0
   outer_pad_h: 56.0
   line_spacing: 1.2
@@ -20,7 +20,7 @@ draw_config:
   small_pad: 4.0
   legend_rel_x: 0.0
   legend_rel_y: 0.0
-  draw_key_sides: true
+  draw_key_sides: false
   key_side_pars:
     rel_x: 0.0
     rel_y: 4.0
