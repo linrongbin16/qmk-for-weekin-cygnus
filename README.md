@@ -34,9 +34,7 @@ There are 2 special keys to switch between different layers:
 
 Combos are created for faster editing some commonly used symbols:
 
-![keymap0](my_keymap_L0.svg)
-
-![keymap1](my_keymap_L1.svg)
+![keymap_combos](my_keymap_combos.svg)
 
 ## Generate Keymap Layout
 
