@@ -228,7 +228,7 @@ svg.keymap { background-color: #FFF; }</style>
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="4" ry="4" x="-21" y="-25" width="42" height="42" class="key"/>
 <text x="0" y="-4" class="key tap">\</text>
-<text x="0" y="-22" class="key shifted">|</text>
+<text x="0" y="-23" class="key shifted">|</text>
 </g>
 <g transform="translate(31, 116)" class="key keypos-12">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
@@ -284,7 +284,7 @@ svg.keymap { background-color: #FFF; }</style>
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="4" ry="4" x="-21" y="-25" width="42" height="42" class="key"/>
 <text x="0" y="-4" class="key tap">;</text>
-<text x="0" y="-22" class="key shifted">:</text>
+<text x="0" y="-23" class="key shifted">:</text>
 </g>
 <g transform="translate(899, 116)" class="key keypos-23">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
@@ -335,19 +335,19 @@ svg.keymap { background-color: #FFF; }</style>
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="4" ry="4" x="-21" y="-25" width="42" height="42" class="key"/>
 <text x="0" y="-4" class="key tap">,</text>
-<text x="0" y="-22" class="key shifted">&lt;</text>
+<text x="0" y="-23" class="key shifted">&lt;</text>
 </g>
 <g transform="translate(775, 163)" class="key keypos-33">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="4" ry="4" x="-21" y="-25" width="42" height="42" class="key"/>
 <text x="0" y="-4" class="key tap">.</text>
-<text x="0" y="-22" class="key shifted">&gt;</text>
+<text x="0" y="-23" class="key shifted">&gt;</text>
 </g>
 <g transform="translate(837, 178)" class="key keypos-34">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="4" ry="4" x="-21" y="-25" width="42" height="42" class="key"/>
 <text x="0" y="-4" class="key tap">/</text>
-<text x="0" y="-22" class="key shifted">?</text>
+<text x="0" y="-23" class="key shifted">?</text>
 </g>
 <g transform="translate(899, 178)" class="key keypos-35">
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
