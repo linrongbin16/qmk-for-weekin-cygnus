@@ -7,9 +7,9 @@ with open('Cygnus-Keymap.yml', 'r') as src:
         combos_section = False
         for line in src:
             dst_line = line
-            if line.startswith("combos:"):
+            if line.strip().startswith("combos:"):
                 combos_section = True
-            if line.strip().startswith("- USER"):
+            elif line.strip().startswith("- USER"):
                 prefix_pos = line.find("- USER")
                 index = str(int(line[prefix_pos+6:].strip()))
                 # print(f"prefix_pos:{prefix_pos}, suffix:{index}")
