@@ -480,11 +480,11 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key held keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
+<g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+</g>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -1418,11 +1418,11 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key held keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
+<g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+</g>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -2628,11 +2628,11 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(450, 153)" class="key keypos-36">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
-<g transform="translate(124, 177)" class="key held keypos-37">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
-</g>
-<g transform="translate(158, 182) rotate(15.0)" class="key keypos-38">
+<g transform="translate(124, 177)" class="key keypos-37">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
+</g>
+<g transform="translate(158, 182) rotate(15.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
 </g>
 <g transform="translate(194, 188) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
@@ -2774,11 +2774,11 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(271, 188) rotate(-30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-14" y="-21" width="27" height="42" class="key"/>
 </g>
-<g transform="translate(307, 182) rotate(-15.0)" class="key keypos-41">
-<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
-</g>
-<g transform="translate(341, 177)" class="key held keypos-42">
+<g transform="translate(307, 182) rotate(-15.0)" class="key held keypos-41">
 <rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key held"/>
+</g>
+<g transform="translate(341, 177)" class="key keypos-42">
+<rect rx="6" ry="6" x="-14" y="-14" width="27" height="27" class="key"/>
 </g>
 </g>
 </g>
