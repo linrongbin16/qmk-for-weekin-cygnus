@@ -1,6 +1,6 @@
 # Cygnus-Keymap
 
-My cygnus split keyboard keymap, 3x6 + 3 thumb keys.
+My cygnus split keyboard keymap, 3 x 6 + 3 thumb keys.
 
 <p align="center">
   <img
@@ -29,6 +29,14 @@ There are 2 special keys to switch between different layers:
 - `TO(x)` on the right thumb: For long time typing, tap it to go to other layers, finish the work and tap another `TO(x)` to come back.
 
 ![keymap](my_keymap.svg)
+
+## Combos
+
+Combos are created for faster editing some commonly used symbols:
+
+![keymap0](my_keymap_L0.svg)
+
+![keymap1](my_keymap_L1.svg)
 
 ## Generate Keymap Layout
 
