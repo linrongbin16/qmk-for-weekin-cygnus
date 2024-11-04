@@ -20,7 +20,7 @@ with open('Cygnus-Keymap.yml', 'r') as src:
                 data = line[prefix_pos+2:]
                 # print(f"data-1:{data}")
                 data = json.loads(data)
-                data['d'] = True
+                # data['d'] = True
                 if isinstance(data['k'], dict) and isinstance(data['k']['s'], str):
                     data['k'].pop('s')
                 # print(f"data-2:{data}")
