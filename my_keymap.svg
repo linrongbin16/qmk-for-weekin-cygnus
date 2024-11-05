@@ -347,19 +347,19 @@ svg.keymap { background-color: #FFF; }</style>
 <use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi.apple-keyboard-command"/>
 </g>
 <g class="combo combopos-0">
-<path d="M420,224 l-50,0" class="combo"/>
-<path d="M420,224 l50,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="211" width="28" height="26" class="combo"/>
-<text x="420" y="224" class="combo tap">
-<tspan x="420" dy="-0.6em">TO</tspan><tspan x="420" dy="1.2em">L3</tspan>
+<path d="M269,152 l-12,-43" class="combo"/>
+<path d="M269,152 l12,43" class="combo"/>
+<rect rx="6" ry="6" x="255" y="139" width="28" height="26" class="combo"/>
+<text x="269" y="152" class="combo tap">
+<tspan x="269" dy="-0.6em">TO</tspan><tspan x="269" dy="1.2em">L3</tspan>
 </text>
 </g>
 <g class="combo combopos-1">
-<path d="M420,213 l-116,0" class="combo"/>
-<path d="M420,213 l116,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
-<text x="420" y="213" class="combo tap">
-<tspan x="420" dy="-0.6em">TO</tspan><tspan x="420" dy="1.2em">L0</tspan>
+<path d="M571,152 l12,-43" class="combo"/>
+<path d="M571,152 l-12,43" class="combo"/>
+<rect rx="6" ry="6" x="557" y="139" width="28" height="26" class="combo"/>
+<text x="571" y="152" class="combo tap">
+<tspan x="571" dy="-0.6em">TO</tspan><tspan x="571" dy="1.2em">L3</tspan>
 </text>
 </g>
 </g>
@@ -561,14 +561,6 @@ svg.keymap { background-color: #FFF; }</style>
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi.apple-keyboard-command"/>
 </g>
-<g class="combo combopos-0">
-<path d="M420,213 l-116,0" class="combo"/>
-<path d="M420,213 l116,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
-<text x="420" y="213" class="combo tap">
-<tspan x="420" dy="-0.6em">TO</tspan><tspan x="420" dy="1.2em">L0</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-L2">
@@ -768,14 +760,6 @@ svg.keymap { background-color: #FFF; }</style>
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi.apple-keyboard-command"/>
 </g>
-<g class="combo combopos-0">
-<path d="M420,213 l-116,0" class="combo"/>
-<path d="M420,213 l116,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
-<text x="420" y="213" class="combo tap">
-<tspan x="420" dy="-0.6em">TO</tspan><tspan x="420" dy="1.2em">L0</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-L3">
@@ -931,11 +915,15 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">Esc</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">TO</tspan><tspan x="0" dy="1.2em">L0</tspan>
+</text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">Esc</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">TO</tspan><tspan x="0" dy="1.2em">L0</tspan>
+</text>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -944,14 +932,6 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi.apple-keyboard-command"/>
-</g>
-<g class="combo combopos-0">
-<path d="M420,213 l-116,0" class="combo"/>
-<path d="M420,213 l116,0" class="combo"/>
-<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
-<text x="420" y="213" class="combo tap">
-<tspan x="420" dy="-0.6em">TO</tspan><tspan x="420" dy="1.2em">L0</tspan>
-</text>
 </g>
 </g>
 </g>

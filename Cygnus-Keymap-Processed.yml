@@ -168,13 +168,10 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - Esc
-    - Esc
+    - "TO L0"
+    - "TO L0"
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
 combos:
-  - {"p":[38,39],"k":"TO L3","l":["L0"]}
-  - {"p":[37,40],"k":"TO L0","l":["L0"]}
-  - {"p":[37,40],"k":"TO L0","l":["L1"]}
-  - {"p":[37,40],"k":"TO L0","l":["L2"]}
-  - {"p":[37,40],"k":"TO L0","l":["L3"]}
+  - {"p":[16,37],"k":"TO L3","l":["L0"]}
+  - {"p":[19,40],"k":"TO L3","l":["L0"]}
