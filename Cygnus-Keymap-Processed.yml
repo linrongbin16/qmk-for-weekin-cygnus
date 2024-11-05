@@ -39,8 +39,8 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"t":"MO L1","type":"held"}
-    - "TO L1"
+    - "MO L1"
+    - "MO L2"
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L1:
@@ -55,13 +55,13 @@ layers:
     - {"s":"*","t":"8"}
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
-    - {"s":"|","t":"\\"}
+    - null
     - "$$mdi.apple-keyboard-control$$"
     - {"s":"\"","t":"'"}
     - {"s":"LSFT+","t":"_"}
     - {"s":"_","t":"-"}
-    - {"s":"+","t":"="}
     - {"s":"LSFT+","t":"+"}
+    - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
@@ -69,80 +69,112 @@ layers:
     - {"s":"LSFT+","t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
-    - null
-    - null
-    - null
-    - "User\n1"
-    - "User\n2"
-    - Home
     - "Page\nUp"
-    - "Page\nDown"
+    - Home
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
     - End
-    - null
+    - "Page\nDown"
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"t":"MO L0","type":"held"}
-    - "TO L0"
+    - {"t":"Esc","type":"held"}
+    - Esc
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L2:
+    - {"s":"LSFT+","t":"~"}
+    - {"s":"LSFT+","t":"!"}
+    - {"s":"LSFT+","t":"@"}
+    - {"s":"LSFT+","t":"#"}
+    - {"s":"LSFT+","t":"$"}
+    - {"s":"LSFT+","t":"%"}
+    - {"s":"LSFT+","t":"^"}
+    - {"s":"LSFT+","t":"&"}
+    - {"s":"LSFT+","t":"*"}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - null
+    - "$$mdi.apple-keyboard-control$$"
+    - {"s":"\"","t":"'"}
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"_","t":"-"}
+    - {"s":"LSFT+","t":"+"}
+    - {"s":"+","t":"="}
+    - "$$mdi.arrow-left$$"
+    - "$$mdi.arrow-up$$"
+    - "$$mdi.arrow-down$$"
+    - "$$mdi.arrow-right$$"
+    - {"s":"LSFT+","t":"\""}
+    - Enter
+    - "$$mdi.apple-keyboard-shift$$"
+    - "Page\nUp"
+    - Home
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
+    - End
+    - "Page\nDown"
+    - "$$mdi.apple-keyboard-shift$$"
+    - "$$mdi.apple-keyboard-command$$"
+    - Space
     - Esc
+    - {"t":"Esc","type":"held"}
+    - "$$mdi.backspace-outline$$"
+    - "$$mdi.apple-keyboard-command$$"
+  L3:
+    - null
     - F10
     - F7
     - F8
     - F9
-    - ","
-    - ","
+    - "/"
+    - "*"
     - "7"
     - "8"
     - "9"
-    - "+"
-    - "-"
+    - "0"
+    - null
     - "$$mdi.apple-keyboard-control$$"
     - F11
     - F4
     - F5
     - F6
-    - "."
-    - "."
+    - "-"
+    - "+"
     - "4"
     - "5"
     - "6"
-    - "*"
+    - null
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - F12
     - F1
     - F2
     - F3
-    - "="
-    - "0"
+    - ","
+    - "."
     - "1"
     - "2"
     - "3"
-    - "/"
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - "TO L0"
-    - "TO L0"
+    - Esc
+    - Esc
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
 combos:
-  - {"k": "Esc", "l": ["L0"], "p": [1, 2, 37]}
-  - {"k": {"t": "("}, "l": ["L0"], "p": [4, 5, 37]}
-  - {"k": {"t": ")"}, "l": ["L0"], "p": [6, 7, 40]}
-  - {"k": {"t": "["}, "l": ["L0"], "p": [16, 17, 37]}
-  - {"k": {"t": "]"}, "l": ["L0"], "p": [18, 19, 40]}
-  - {"k": {"t": "{"}, "l": ["L0"], "p": [28, 29, 37]}
-  - {"k": {"t": "}"}, "l": ["L0"], "p": [30, 31, 40]}
-  - {"k": "Esc", "l": ["L1"], "p": [1, 2, 37]}
-  - {"k": {"t": "("}, "l": ["L1"], "p": [4, 5, 37]}
-  - {"k": {"t": ")"}, "l": ["L1"], "p": [6, 7, 40]}
-  - {"k": {"t": "["}, "l": ["L1"], "p": [16, 17, 37]}
-  - {"k": {"t": "]"}, "l": ["L1"], "p": [18, 19, 40]}
-  - {"k": {"t": "{"}, "l": ["L1"], "p": [28, 29, 37]}
-  - {"k": {"t": "}"}, "l": ["L1"], "p": [30, 31, 40]}
-  - {"k": "TO L2", "l": ["L1"], "p": [38, 39]}
-  - {"k": "TO L2", "l": ["L0"], "p": [38, 39]}
+  - {"k": "TO L3", "l": ["L0"], "p": [38, 39]}
+  - {"k": "TO L0", "l": ["L0"], "p": [37, 40]}
+  - {"k": "TO L0", "l": ["L1"], "p": [37, 40]}
+  - {"k": "TO L0", "l": ["L2"], "p": [37, 40]}
+  - {"k": "TO L0", "l": ["L3"], "p": [37, 40]}
