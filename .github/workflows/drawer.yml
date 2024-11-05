@@ -19,8 +19,7 @@ jobs:
         run: |
           python3 ./process.py
           pipx install keymap-drawer
-          keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml --keys-only -o my_keymap.svg
-          keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml --combos-only -o my_keymap_combos.svg
+          keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml -o my_keymap.svg
           echo "git status"
           git status
       - uses: stefanzweifel/git-auto-commit-action@v5
