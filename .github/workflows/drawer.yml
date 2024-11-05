@@ -6,6 +6,8 @@ on:
     paths:
       - "Cygnus-Keymap.yml"
       - "my_config.yaml"
+      - "process.py"
+      - ".github/workflows/drawer.yml"
   workflow_dispatch:
 concurrency:
   group: ${{ github.ref }}
