@@ -25,11 +25,6 @@ The keymap is based on the standard **QWERTY** layout (which I am used to), work
 
 ![keymap](my_keymap.svg)
 
-Some combos are created for switching to layer-3:
-
-- `F` + `Space` (left hand) = `TO(3)`
-- `J` + `Bksp` (right hand) = `TO(3)`
-
 ## Generate Keymap Layout
 
 1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
