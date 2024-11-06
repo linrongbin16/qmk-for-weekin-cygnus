@@ -49,8 +49,10 @@ with open("Cygnus-Keymap.yml", "r") as src:
 
                 remove_symbols = [
                     {"s": "{", "t": "["},
-                    {"s": "}", "t": "}"},
+                    {"s": "}", "t": "]"},
                     {"s": '"', "t": "'"},
+                    {"s": "_", "t": "-"},
+                    {"s": "+", "t": "="},
                 ]
                 for rs in remove_symbols:
                     if (
