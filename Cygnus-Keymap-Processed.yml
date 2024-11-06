@@ -69,16 +69,16 @@ layers:
     - {"s":"LSFT+","t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
-    - "Page\nUp"
-    - Home
+    - null
+    - {"s":"LSFT+","t":"{"}
     - {"s":"LSFT+","t":"{"}
     - {"s":"{","t":"["}
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
     - {"s":"}","t":"]"}
     - {"s":"LSFT+","t":"}"}
-    - End
-    - "Page\nDown"
+    - {"s":"LSFT+","t":"}"}
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
@@ -100,28 +100,28 @@ layers:
     - F11
     - F12
     - "$$mdi.apple-keyboard-control$$"
-    - {"s":"\"","t":"'"}
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
-    - {"s":"+","t":"="}
+    - null
+    - Home
+    - "Page\nUp"
+    - End
+    - null
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-right$$"
-    - {"s":"LSFT+","t":"\""}
+    - null
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
-    - "Page\nUp"
-    - Home
-    - {"s":"LSFT+","t":"{"}
-    - {"s":"{","t":"["}
-    - {"s":"LSFT+","t":"("}
-    - {"s":"LSFT+","t":")"}
-    - {"s":"}","t":"]"}
-    - {"s":"LSFT+","t":"}"}
-    - End
+    - null
+    - null
     - "Page\nDown"
+    - End
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
