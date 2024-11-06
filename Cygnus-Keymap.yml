@@ -100,27 +100,27 @@ layers:
     - F11
     - F12
     - "$$mdi.apple-keyboard-control$$"
-    - null
+    - {"s":"\"","t":"'"}
     - Home
-    - "Page\nUp"
     - End
-    - null
+    - "Page\nUp"
+    - "Page\nDown"
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-right$$"
-    - null
+    - {"s":"LSFT+","t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - null
-    - null
-    - "Page\nDown"
-    - End
-    - null
-    - null
-    - null
-    - null
-    - null
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
+    - {"s":"LSFT+","t":"}"}
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
