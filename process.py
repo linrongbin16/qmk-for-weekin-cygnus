@@ -46,6 +46,21 @@ with open("Cygnus-Keymap.yml", "r") as src:
                     and data["s"] == "LSFT+"
                 ):
                     data.pop("s")
+
+                remove_symbols = [
+                    {"s": "{", "t": "["},
+                    {"s": "}", "t": "}"},
+                    {"s": '"', "t": "'"},
+                ]
+                for rs in remove_symbols:
+                    if (
+                        isinstance(data, dict)
+                        and "s" in data
+                        and data["s"] == rs["s"]
+                        and "t" in data
+                        and data["t"] == rs["t"]
+                    ):
+                        data.pop("s")
                 print(f"data-2:{data}")
                 dst_line = (
                     "".join([" " for i in range(prefix)])
