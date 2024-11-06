@@ -57,27 +57,27 @@ layers:
     - {"s":")","t":"0"}
     - null
     - "$$mdi.apple-keyboard-control$$"
-    - {"t":"'"}
-    - {"t":"_"}
-    - {"t":"-"}
-    - {"t":"+"}
-    - {"t":"="}
+    - {"s":"\"","t":"'"}
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"_","t":"-"}
+    - {"s":"LSFT+","t":"+"}
+    - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
-    - {"t":"\""}
+    - {"s":"LSFT+","t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - null
-    - {"t":"{"}
-    - {"t":"{"}
-    - {"t":"["}
-    - {"t":"("}
-    - {"t":")"}
-    - {"t":"]"}
-    - {"t":"}"}
-    - {"t":"}"}
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
+    - {"s":"LSFT+","t":"}"}
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
@@ -100,7 +100,7 @@ layers:
     - F11
     - F12
     - "$$mdi.apple-keyboard-control$$"
-    - {"t":"'"}
+    - {"s":"\"","t":"'"}
     - Home
     - End
     - "Page\nUp"
@@ -109,18 +109,18 @@ layers:
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-right$$"
-    - {"t":"\""}
+    - {"s":"LSFT+","t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - null
-    - {"t":"{"}
-    - {"t":"{"}
-    - {"t":"["}
-    - {"t":"("}
-    - {"t":")"}
-    - {"t":"]"}
-    - {"t":"}"}
-    - {"t":"}"}
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
+    - {"s":"LSFT+","t":"("}
+    - {"s":"LSFT+","t":")"}
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
+    - {"s":"LSFT+","t":"}"}
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
