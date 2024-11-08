@@ -1,9 +1,9 @@
 draw_config:
-  key_w: 60.0
-  key_h: 56.0
+  key_w: 60
+  key_h: 56
   split_gap: 30.0
-  combo_w: 28.0
-  combo_h: 26.0
+  combo_w: 28
+  combo_h: 26
   key_rx: 6.0
   key_ry: 6.0
   dark_mode: auto
@@ -22,19 +22,19 @@ draw_config:
   legend_rel_y: 0.0
   draw_key_sides: false
   key_side_pars:
-    rel_x: 0
-    rel_y: 4
-    rel_w: 12
-    rel_h: 12
-    rx: 4
-    ry: 4
+    rel_x: 0.0
+    rel_y: 4.0
+    rel_w: 12.0
+    rel_h: 12.0
+    rx: 4.0
+    ry: 4.0
   svg_extra_style: "svg.keymap { background-color: #FFF; }"
   footer_text: ""
   shrink_wide_legends: 7
   style_layer_activators: true
-  glyph_tap_size: 22
-  glyph_hold_size: 20
-  glyph_shifted_size: 18
+  glyph_tap_size: 20
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
   glyphs:
     mdi.apple-keyboard-command: |
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>apple-keyboard-command</title><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
