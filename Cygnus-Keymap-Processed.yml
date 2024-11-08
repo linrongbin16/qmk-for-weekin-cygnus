@@ -16,12 +16,12 @@ layers:
     - "$$mdi.apple-keyboard-control$$"
     - A
     - S
-    - D
-    - F
+    - {"s":"TD(2)","t":"D","h":"$$mdi.apple-keyboard-shift$$"}
+    - {"s":"TD(3)","t":"F","h":"$$mdi.apple-keyboard-control$$"}
     - G
     - H
-    - J
-    - K
+    - {"s":"TD(4)","t":"J","h":"$$mdi.apple-keyboard-control$$"}
+    - {"s":"TD(5)","t":"K","h":"$$mdi.apple-keyboard-shift$$"}
     - L
     - {"s":":","t":";"}
     - Enter
@@ -59,12 +59,12 @@ layers:
     - "$$mdi.apple-keyboard-control$$"
     - {"s":"\"","t":"'"}
     - {"s":"LSFT+","t":"_"}
-    - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
+    - {"s":"TD(10)","t":"_  -","h":"$$mdi.apple-keyboard-shift$$"}
+    - {"s":"TD(11)","t":"+","h":"$$mdi.apple-keyboard-control$$"}
     - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
-    - "$$mdi.arrow-down$$"
-    - "$$mdi.arrow-up$$"
+    - {"s":"TD(12)","t":"$$mdi.arrow-down$$","h":"$$mdi.apple-keyboard-control$$"}
+    - {"s":"TD(13)","t":"$$mdi.arrow-up$$","h":"$$mdi.apple-keyboard-shift$$"}
     - "$$mdi.arrow-right$$"
     - {"s":"LSFT+","t":"\""}
     - Enter
