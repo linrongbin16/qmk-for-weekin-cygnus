@@ -233,14 +233,10 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
-<text x="0" y="-23" class="key shifted">TD(2)</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
-<text x="0" y="-23" class="key shifted">TD(3)</text>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -253,14 +249,10 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
-<text x="0" y="-23" class="key shifted">TD(4)</text>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
-<text x="0" y="-23" class="key shifted">TD(5)</text>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -433,15 +425,13 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">_ -</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
-<text x="0" y="-23" class="key shifted">TD(10)</text>
+<text x="0" y="0" class="key tap">-</text>
+<text x="0" y="-23" class="key shifted">_</text>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
-<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
-<text x="0" y="-23" class="key shifted">TD(11)</text>
+<text x="0" y="-23" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -455,14 +445,10 @@ svg.keymap { background-color: #FFF; }</style>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-down" xlink:href="#mdi.arrow-down" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-down"/>
-<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
-<text x="0" y="-23" class="key shifted">TD(12)</text>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-up" xlink:href="#mdi.arrow-up" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-up"/>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
-<text x="0" y="-23" class="key shifted">TD(13)</text>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -486,8 +472,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">{</text>
-<text x="0" y="-23" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -521,8 +505,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">}</text>
-<text x="0" y="-23" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -643,11 +625,11 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi.arrow-up" xlink:href="#mdi.arrow-up" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-up"/>
+<use href="#mdi.arrow-down" xlink:href="#mdi.arrow-down" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-down"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi.arrow-down" xlink:href="#mdi.arrow-down" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-down"/>
+<use href="#mdi.arrow-up" xlink:href="#mdi.arrow-up" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-up"/>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -671,8 +653,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">{</text>
-<text x="0" y="-23" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -706,8 +686,6 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">}</text>
-<text x="0" y="-23" class="key shifted">LSFT+</text>
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
