@@ -428,22 +428,23 @@ svg.keymap { background-color: #FFF; }</style>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&quot;</text>
+<text x="0" y="0" class="key tap">Home</text>
 <use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-command"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="0" class="key tap">End</text>
 <use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">(</text>
+<text x="0" y="0" class="key tap">&quot;</text>
 <use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">)</text>
+<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="-23" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

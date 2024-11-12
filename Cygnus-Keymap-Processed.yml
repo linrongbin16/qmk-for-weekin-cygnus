@@ -58,10 +58,10 @@ layers:
     - null
     - Esc
     - null
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"\""}
-    - {"h":"$$mdi.apple-keyboard-control$$","t":"'"}
-    - {"h":"$$mdi.apple-keyboard-shift$$","t":"("}
-    - {"t":")"}
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"Home"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"End"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"\""}
+    - {"s":"\"","t":"'"}
     - "$$mdi.arrow-left$$"
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-down$$"}
     - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
