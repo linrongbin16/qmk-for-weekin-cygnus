@@ -15,14 +15,14 @@ layers:
     - {"s":"|","t":"\\"}
     - Esc
     - A
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"S"}
+    - S
     - {"h":"$$mdi.apple-keyboard-control$$","t":"D"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"F"}
     - G
     - H
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"J"}
     - {"h":"$$mdi.apple-keyboard-control$$","t":"K"}
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"L"}
+    - L
     - {"s":":","t":";"}
     - Enter
     - "$$mdi.apple-keyboard-option$$"
@@ -37,12 +37,12 @@ layers:
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
     - Del
-    - {"s":"_","t":"-"}
+    - "$$mdi.apple-keyboard-command$$"
     - Space
     - {"h":"MO L1","t":"["}
     - {"h":"MO L2","t":"]"}
     - "$$mdi.backspace-outline$$"
-    - {"s":"+","t":"="}
+    - "$$mdi.apple-keyboard-command$$"
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -57,16 +57,16 @@ layers:
     - {"s":")","t":"0"}
     - null
     - Esc
-    - null
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"Home"}
-    - {"h":"$$mdi.apple-keyboard-control$$","t":"End"}
-    - {"h":"$$mdi.apple-keyboard-shift$$","t":"\""}
-    - {"s":"\"","t":"'"}
+    - {"t":"\""}
+    - {"t":"_"}
+    - {"s":"_","t":"-"}
+    - {"t":"+"}
+    - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-down$$"}
     - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"$$mdi.arrow-right$$"}
-    - null
+    - "$$mdi.arrow-right$$"
+    - {"s":"\"","t":"'"}
     - Enter
     - "$$mdi.apple-keyboard-option$$"
     - null
@@ -80,12 +80,12 @@ layers:
     - null
     - null
     - Del
-    - {"s":"_","t":"-"}
+    - "$$mdi.apple-keyboard-command$$"
     - Space
     - {"t":"{"}
     - {"t":"}"}
     - "$$mdi.backspace-outline$$"
-    - {"s":"+","t":"="}
+    - "$$mdi.apple-keyboard-command$$"
   L2:
     - F1
     - F2
@@ -123,9 +123,9 @@ layers:
     - null
     - null
     - Del
-    - {"s":"_","t":"-"}
+    - "$$mdi.apple-keyboard-command$$"
     - Space
     - {"t":"{"}
     - {"t":"}"}
     - "$$mdi.backspace-outline$$"
-    - {"s":"+","t":"="}
+    - "$$mdi.apple-keyboard-command$$"
