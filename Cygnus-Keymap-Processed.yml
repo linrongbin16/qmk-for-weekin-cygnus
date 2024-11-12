@@ -59,7 +59,7 @@ layers:
     - Esc
     - null
     - {"h":"$$mdi.apple-keyboard-command$$","t":"\""}
-    - {"h":"$$mdi.apple-keyboard-control$$","t":"\"  '"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"'"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"("}
     - {"t":")"}
     - "$$mdi.arrow-left$$"
