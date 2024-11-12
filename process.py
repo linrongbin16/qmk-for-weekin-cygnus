@@ -70,6 +70,14 @@ with open("Cygnus-Keymap.yml", "r") as src:
                     and data["t"] == "}  ]"
                 ):
                     data["t"] = "]"
+
+                if (
+                    isinstance(data, dict)
+                    and "t" in data
+                    and isinstance(data["t"], str)
+                    and data["t"] == "\"  '"
+                ):
+                    data["t"] = "'"
                 print(f"data-2:{data}")
 
                 dst_line = (
