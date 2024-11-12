@@ -58,25 +58,25 @@ layers:
     - null
     - "$$mdi.apple-keyboard-control$$"
     - {"s":"\"","t":"'"}
-    - {"s":"LSFT+","t":"_"}
+    - {"t":"_"}
     - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
+    - {"t":"+"}
     - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
-    - {"s":"LSFT+","t":"\""}
+    - {"t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
-    - {"s":"LSFT+","t":"{"}
+    - {"t":"{"}
     - {"s":"{","t":"["}
-    - {"s":"LSFT+","t":"("}
-    - {"s":"LSFT+","t":")"}
+    - {"t":"("}
+    - {"t":")"}
     - {"s":"}","t":"]"}
-    - {"s":"LSFT+","t":"}"}
+    - {"t":"}"}
     - null
     - null
     - "$$mdi.apple-keyboard-shift$$"
@@ -109,17 +109,17 @@ layers:
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
-    - {"s":"LSFT+","t":"\""}
+    - {"t":"\""}
     - Enter
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
-    - {"s":"LSFT+","t":"{"}
+    - {"t":"{"}
     - {"s":"{","t":"["}
-    - {"s":"LSFT+","t":"("}
-    - {"s":"LSFT+","t":")"}
+    - {"t":"("}
+    - {"t":")"}
     - {"s":"}","t":"]"}
-    - {"s":"LSFT+","t":"}"}
+    - {"t":"}"}
     - null
     - null
     - "$$mdi.apple-keyboard-shift$$"
