@@ -58,10 +58,10 @@ layers:
     - null
     - Esc
     - null
-    - {"s":"TD(9)","t":"\"","h":"$$mdi.apple-keyboard-command$$"}
-    - {"s":"TD(10)","t":"\"  '","h":"$$mdi.apple-keyboard-control$$"}
-    - {"s":"TD(11)","t":"(","h":"$$mdi.apple-keyboard-shift$$"}
-    - {"s":"LSFT+","t":")"}
+    - {"s":"TD(9)","t":"Home","h":"$$mdi.apple-keyboard-command$$"}
+    - {"s":"TD(10)","t":"End","h":"$$mdi.apple-keyboard-control$$"}
+    - {"s":"TD(11)","t":"\"","h":"$$mdi.apple-keyboard-shift$$"}
+    - {"s":"\"","t":"'"}
     - "$$mdi.arrow-left$$"
     - {"s":"TD(12)","t":"$$mdi.arrow-down$$","h":"$$mdi.apple-keyboard-shift$$"}
     - {"s":"TD(13)","t":"$$mdi.arrow-up$$","h":"$$mdi.apple-keyboard-control$$"}
