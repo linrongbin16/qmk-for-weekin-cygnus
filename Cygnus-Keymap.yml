@@ -39,8 +39,8 @@ layers:
     - Del
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"s":"TD(16)","t":"{  [","h":"MO L1"}
-    - {"s":"TD(17)","t":"}  ]","h":"MO L2"}
+    - "MO L1"
+    - "MO L2"
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L1:
@@ -57,33 +57,33 @@ layers:
     - {"s":")","t":"0"}
     - null
     - Esc
-    - {"s":"LSFT+","t":"\""}
+    - null
     - {"s":"LSFT+","t":"_"}
-    - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
+    - {"s":"TD(10)","t":"_  -","h":"$$mdi.apple-keyboard-control$$"}
+    - {"s":"TD(11)","t":"+","h":"$$mdi.apple-keyboard-shift$$"}
     - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - {"s":"TD(12)","t":"$$mdi.arrow-down$$","h":"$$mdi.apple-keyboard-shift$$"}
     - {"s":"TD(13)","t":"$$mdi.arrow-up$$","h":"$$mdi.apple-keyboard-control$$"}
     - "$$mdi.arrow-right$$"
-    - {"s":"\"","t":"'"}
+    - null
     - Enter
     - "$$mdi.apple-keyboard-option$$"
     - null
     - null
-    - null
-    - null
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
-    - null
-    - null
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
     - null
     - null
     - Del
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"s":"LSFT+","t":"{"}
-    - {"s":"LSFT+","t":"}"}
+    - {"s":"LSFT+","t":"\"","type":"held"}
+    - {"s":"\"","t":"'"}
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L2:
@@ -114,18 +114,18 @@ layers:
     - "$$mdi.apple-keyboard-option$$"
     - null
     - null
-    - null
-    - null
+    - {"s":"LSFT+","t":"{"}
+    - {"s":"{","t":"["}
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
-    - null
-    - null
+    - {"s":"}","t":"]"}
+    - {"s":"LSFT+","t":"}"}
     - null
     - null
     - Del
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"s":"LSFT+","t":"{"}
-    - {"s":"LSFT+","t":"}"}
+    - {"s":"LSFT+","t":"\""}
+    - {"s":"\"","t":"'","type":"held"}
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
