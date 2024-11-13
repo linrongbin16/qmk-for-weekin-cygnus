@@ -20,6 +20,8 @@
       "\"RShift\" => $$mdi.apple-keyboard-shift$$",
       "\"LSFT\" => $$mdi.apple-keyboard-shift$$",
       "\"RSFT\" => $$mdi.apple-keyboard-shift$$",
+      "\"LCtrl\" => $$mdi.apple-keyboard-control$$",
+      "\"RCtrl\" => $$mdi.apple-keyboard-control$$",
       "\"LCTL\" => $$mdi.apple-keyboard-control$$",
       "\"RCTL\" => $$mdi.apple-keyboard-control$$",
       "\"LAlt\" => $$mdi.apple-keyboard-option$$",
