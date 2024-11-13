@@ -39,8 +39,8 @@ layers:
     - "$$mdi.apple-keyboard-option$$"
     - {"s":"_","t":"-"}
     - Space
-    - "MO L1"
-    - "MO L2"
+    - {"h":"MO L1","s":"{","t":"["}
+    - {"h":"MO L2","s":"}","t":"]"}
     - "$$mdi.backspace-outline$$"
     - {"s":"+","t":"="}
   L1:
@@ -82,8 +82,8 @@ layers:
     - "$$mdi.apple-keyboard-option$$"
     - {"s":"_","t":"-"}
     - Space
-    - {"s":"{","t":"[","type":"held"}
-    - {"s":"}","t":"]"}
+    - {"t":"{","type":"held"}
+    - {"t":"}"}
     - "$$mdi.backspace-outline$$"
     - {"s":"+","t":"="}
   L2:
@@ -125,7 +125,7 @@ layers:
     - "$$mdi.apple-keyboard-option$$"
     - {"s":"_","t":"-"}
     - Space
-    - {"s":"{","t":"["}
-    - {"s":"}","t":"]","type":"held"}
+    - {"t":"{"}
+    - {"t":"}","type":"held"}
     - "$$mdi.backspace-outline$$"
     - {"s":"+","t":"="}
