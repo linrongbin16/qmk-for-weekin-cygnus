@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - LCtrl
+    - "$$mdi.apple-keyboard-control$$"
     - A
     - S
     - D
@@ -56,7 +56,7 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - LCtrl
+    - "$$mdi.apple-keyboard-control$$"
     - {"s":"LSFT+","t":"\""}
     - {"s":"LSFT+","t":"_"}
     - {"s":"_","t":"-"}
@@ -99,7 +99,7 @@ layers:
     - F10
     - F11
     - F12
-    - LCtrl
+    - "$$mdi.apple-keyboard-control$$"
     - {"s":"LSFT+","t":"\""}
     - Home
     - End
