@@ -24,7 +24,7 @@ layers:
     - K
     - L
     - {"s":":","t":";"}
-    - Enter
+    - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - Z
     - X
@@ -38,7 +38,7 @@ layers:
     - {"s":"?","t":"/"}
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
-    - Space
+    - "$$mdi.keyboard-space$$"
     - {"s":"{","t":"[","h":"MO L1"}
     - {"s":"}","t":"]","h":"MO L2"}
     - "$$mdi.backspace-outline$$"
@@ -67,7 +67,7 @@ layers:
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
     - null
-    - Enter
+    - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
@@ -81,7 +81,7 @@ layers:
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
-    - Space
+    - "$$mdi.keyboard-space$$"
     - {"s":"LSFT+","t":"\"","type":"held"}
     - {"s":"\"","t":"'"}
     - "$$mdi.backspace-outline$$"
@@ -110,7 +110,7 @@ layers:
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
     - null
-    - Enter
+    - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
@@ -124,7 +124,7 @@ layers:
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
-    - Space
+    - "$$mdi.keyboard-space$$"
     - {"s":"LSFT+","t":"\""}
     - {"s":"\"","t":"'","type":"held"}
     - "$$mdi.backspace-outline$$"
@@ -153,7 +153,7 @@ layers:
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
     - null
-    - Enter
+    - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
@@ -167,7 +167,7 @@ layers:
     - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
-    - Space
+    - "$$mdi.keyboard-space$$"
     - "TO L0"
     - "TO L0"
     - "$$mdi.backspace-outline$$"
