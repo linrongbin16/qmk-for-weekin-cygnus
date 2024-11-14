@@ -28,6 +28,8 @@
       "\"RAlt\" => $$mdi.apple-keyboard-option$$",
       "\"Bksp\" => $$mdi.backspace-outline$$",
       "\"Tab\" => $$mdi.keyboard-tab$$",
+      "\"Space\" => $$mdi.keyboard-space$$",
+      "\"Enter\" => $$mdi.keyboard-return$$",
       "\"Left\" => $$mdi.arrow-left$$",
       "\"Up\" => $$mdi.arrow-up$$",
       "\"Down\" => $$mdi.arrow-down$$",
