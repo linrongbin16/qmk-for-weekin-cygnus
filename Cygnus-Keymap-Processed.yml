@@ -39,8 +39,8 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - Space
-    - {"h":"MO L1","s":"_","t":"-"}
-    - {"h":"MO L2","s":"+","t":"="}
+    - {"h":"MO L1","s":"{","t":"["}
+    - {"h":"MO L2","s":"}","t":"]"}
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L1:
@@ -71,12 +71,12 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
-    - {"t":"{"}
-    - {"s":"{","t":"["}
-    - {"t":"("}
-    - {"t":")"}
-    - {"s":"}","t":"]"}
-    - {"t":"}"}
+    - null
+    - {"t":"_"}
+    - {"s":"_","t":"-"}
+    - {"t":"+"}
+    - {"s":"+","t":"="}
+    - null
     - null
     - null
     - "$$mdi.apple-keyboard-shift$$"
@@ -114,12 +114,12 @@ layers:
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
-    - {"t":"{"}
-    - {"s":"{","t":"["}
-    - {"t":"("}
-    - {"t":")"}
-    - {"s":"}","t":"]"}
-    - {"t":"}"}
+    - null
+    - {"t":"_"}
+    - {"s":"_","t":"-"}
+    - {"t":"+"}
+    - {"s":"+","t":"="}
+    - null
     - null
     - null
     - "$$mdi.apple-keyboard-shift$$"
