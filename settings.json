@@ -4,7 +4,7 @@
     "notes": [],
     "keyboard": "splitkb/aurora/corne/rev1",
     "layout": "LAYOUT_split_3x6_3",
-    "include-layers": "0,1,2",
+    "include-layers": "0,1,2,3",
     "half-after-half": false,
     "mirror-right-half": false,
     "omit-m1": true,
