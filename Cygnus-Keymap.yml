@@ -173,7 +173,4 @@ layers:
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
 combos:
-  - {"p":[36,41],"k":"TO L3","l":["L0"]}
-  - {"p":[36,41],"k":"TO L3","l":["L1"]}
-  - {"p":[36,41],"k":"TO L3","l":["L2"]}
-  - {"p":[36,41],"k":"TO L3","l":["L3"]}
+  - {"p":[38,39],"k":"TO L3","l":["L0"]}
