@@ -58,14 +58,14 @@ layers:
     - null
     - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
     - null
-    - null
-    - {"s":"_","t":"-"}
+    - Home
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
+    - {"s":"_","t":"-"}
+    - {"s":"+","t":"="}
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
-    - {"s":"+","t":"="}
-    - null
+    - End
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
@@ -101,14 +101,14 @@ layers:
     - null
     - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
     - null
-    - null
-    - {"s":"LSFT+","t":"_"}
     - Home
-    - "Page\nDown"
-    - "Page\nUp"
-    - End
+    - "$$mdi.arrow-left$$"
+    - "$$mdi.arrow-down$$"
+    - {"s":"LSFT+","t":"_"}
     - {"s":"LSFT+","t":"+"}
-    - null
+    - "$$mdi.arrow-up$$"
+    - "$$mdi.arrow-right$$"
+    - End
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
