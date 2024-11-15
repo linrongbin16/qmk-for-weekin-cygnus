@@ -50,32 +50,32 @@ layers:
     - {"s":"#","t":"3"}
     - {"s":"$","t":"4"}
     - {"s":"%","t":"5"}
-    - Home
-    - End
-    - "Page\nUp"
-    - "Page\nDown"
-    - Insert
-    - Del
-    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
     - {"s":"^","t":"6"}
     - {"s":"&","t":"7"}
     - {"s":"*","t":"8"}
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
+    - null
+    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
+    - null
+    - null
+    - {"s":"_","t":"-"}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
     - "$$mdi.arrow-right$$"
+    - {"s":"+","t":"="}
+    - null
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
     - null
-    - {"s":"_","t":"-"}
+    - {"s":"LSFT+","t":"("}
     - {"s":"{","t":"["}
     - {"s":"}","t":"]"}
-    - {"s":"+","t":"="}
+    - {"s":"LSFT+","t":")"}
     - null
     - null
     - null
@@ -93,32 +93,32 @@ layers:
     - {"s":"LSFT+","t":"#"}
     - {"s":"LSFT+","t":"$"}
     - {"s":"LSFT+","t":"%"}
-    - Home
-    - End
-    - "Page\nUp"
-    - "Page\nDown"
-    - Insert
-    - Del
-    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
     - {"s":"LSFT+","t":"^"}
     - {"s":"LSFT+","t":"&"}
     - {"s":"LSFT+","t":"*"}
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
-    - "$$mdi.arrow-left$$"
-    - "$$mdi.arrow-down$$"
-    - "$$mdi.arrow-up$$"
-    - "$$mdi.arrow-right$$"
+    - null
+    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
+    - null
+    - null
+    - {"s":"LSFT+","t":"_"}
+    - Home
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
+    - {"s":"LSFT+","t":"+"}
+    - null
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
     - null
-    - {"s":"LSFT+","t":"_"}
+    - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":"{"}
     - {"s":"LSFT+","t":"}"}
-    - {"s":"LSFT+","t":"+"}
+    - {"s":"LSFT+","t":")"}
     - null
     - null
     - null
@@ -130,36 +130,36 @@ layers:
     - "$$mdi.backspace-outline$$"
     - "$$mdi.apple-keyboard-command$$"
   L3:
-    - null
     - F1
     - F2
     - F3
     - F4
     - F5
-    - Home
-    - End
-    - "Page\nUp"
-    - "Page\nDown"
-    - Insert
-    - Del
-    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
     - F6
     - F7
     - F8
     - F9
     - F10
-    - "$$mdi.arrow-left$$"
-    - "$$mdi.arrow-down$$"
-    - "$$mdi.arrow-up$$"
-    - "$$mdi.arrow-right$$"
+    - F11
+    - F12
+    - {"t":"Esc","h":"$$mdi.apple-keyboard-control$$"}
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
     - null
     - null
     - null
-    - F11
-    - F12
+    - null
+    - null
     - null
     - null
     - null
