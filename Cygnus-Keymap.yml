@@ -58,9 +58,9 @@ layers:
     - null
     - "$$mdi.apple-keyboard-control$$"
     - null
-    - {"s":"LSFT+","t":"_"}
+    - null
+    - {"s":"\"","t":"'"}
     - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
     - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
@@ -69,16 +69,16 @@ layers:
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
-    - Home
     - null
-    - {"s":"LSFT+","t":"\""}
+    - Home
+    - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":"{"}
     - {"s":"{","t":"["}
     - {"s":"}","t":"]"}
     - {"s":"LSFT+","t":"}"}
-    - {"s":"\"","t":"'"}
-    - null
+    - {"s":"LSFT+","t":")"}
     - End
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - "$$mdi.keyboard-space$$"
@@ -101,10 +101,10 @@ layers:
     - null
     - "$$mdi.apple-keyboard-control$$"
     - null
+    - null
+    - {"s":"LSFT+","t":"\""}
     - {"s":"LSFT+","t":"_"}
-    - {"s":"_","t":"-"}
     - {"s":"LSFT+","t":"+"}
-    - {"s":"+","t":"="}
     - "$$mdi.arrow-left$$"
     - "$$mdi.arrow-down$$"
     - "$$mdi.arrow-up$$"
@@ -112,16 +112,16 @@ layers:
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
-    - Home
     - null
-    - {"s":"LSFT+","t":"\""}
+    - Home
+    - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":"{"}
     - {"s":"{","t":"["}
     - {"s":"}","t":"]"}
     - {"s":"LSFT+","t":"}"}
-    - {"s":"\"","t":"'"}
-    - null
+    - {"s":"LSFT+","t":")"}
     - End
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - "$$mdi.keyboard-space$$"
@@ -144,27 +144,27 @@ layers:
     - F12
     - "$$mdi.apple-keyboard-control$$"
     - null
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"+"}
-    - {"s":"+","t":"="}
-    - "$$mdi.arrow-left$$"
-    - "$$mdi.arrow-down$$"
-    - "$$mdi.arrow-up$$"
-    - "$$mdi.arrow-right$$"
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - null
     - "$$mdi.keyboard-return$$"
     - "$$mdi.apple-keyboard-shift$$"
-    - Home
     - null
-    - {"s":"LSFT+","t":"\""}
-    - {"s":"LSFT+","t":"{"}
-    - {"s":"{","t":"["}
-    - {"s":"}","t":"]"}
-    - {"s":"LSFT+","t":"}"}
-    - {"s":"\"","t":"'"}
     - null
-    - End
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - "$$mdi.apple-keyboard-shift$$"
     - "$$mdi.apple-keyboard-command$$"
     - "$$mdi.keyboard-space$$"
