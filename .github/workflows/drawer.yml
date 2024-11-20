@@ -17,16 +17,16 @@ jobs:
   draw:
     runs-on: ubuntu-latest
     steps:
-      - name: Build VialToKeymapDrawer
-        run: |
-          sudo add-apt-repository ppa:haxe/releases -y
-          sudo apt-get update
-          sudo apt-get install haxe -y
-          mkdir ~/haxelib && haxelib setup ~/haxelib
-          echo "haxe --version"
-          haxe --version
-          echo "which neko"
-          which neko
+      # - name: Build VialToKeymapDrawer
+      #   run: |
+      #     sudo add-apt-repository ppa:haxe/releases -y
+      #     sudo apt-get update
+      #     sudo apt-get install haxe -y
+      #     mkdir ~/haxelib && haxelib setup ~/haxelib
+      #     echo "haxe --version"
+      #     haxe --version
+      #     echo "which neko"
+      #     which neko
       - uses: actions/checkout@v4
       - name: Generate SVG
         run: |
