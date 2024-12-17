@@ -1,7 +1,7 @@
 layout: {"qmk_layout":"LAYOUT_split_3x6_3","qmk_keyboard":"splitkb/aurora/corne/rev1"}
 layers:
   L0:
-    - Tab
+    - $$mdi.keyboard-tab$$
     - Q
     - W
     - E
@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - LCtrl
+    - $$mdi.apple-keyboard-control$$
     - A
     - S
     - D
@@ -24,8 +24,8 @@ layers:
     - K
     - L
     - {"s":":","t":";"}
-    - Enter
-    - LShift
+    - $$mdi.keyboard-return$$
+    - $$mdi.apple-keyboard-shift$$
     - Z
     - X
     - C
@@ -36,13 +36,13 @@ layers:
     - {"s":"<","t":","}
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
-    - RShift
-    - LGui
-    - Space
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-command$$
+    - $$mdi.keyboard-space$$
     - "MO L1"
     - "MO L2"
-    - Bksp
-    - RGui
+    - $$mdi.backspace-outline$$
+    - $$mdi.apple-keyboard-command$$
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -56,36 +56,36 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - LCtrl
+    - $$mdi.apple-keyboard-control$$
     - null
     - null
-    - {"s":"\"","t":"'"}
+    - "{\"t\":\"'\"}"
     - {"s":"_","t":"-"}
-    - {"s":"+","t":"="}
-    - Left
-    - Down
-    - Up
-    - Right
+    - "{\"t\":\"=\"}"
+    - $$mdi.arrow-left$$
+    - $$mdi.arrow-down$$
+    - $$mdi.arrow-up$$
+    - $$mdi.arrow-right$$
     - null
-    - Enter
-    - LShift
+    - $$mdi.keyboard-return$$
+    - $$mdi.apple-keyboard-shift$$
     - null
     - null
     - null
     - {"t":"{"}
-    - {"s":"{","t":"["}
-    - {"s":"}","t":"]"}
+    - "{\"t\":\"[\"}"
+    - "{\"t\":\"]\"}"
     - {"t":"}"}
     - null
     - null
     - null
-    - RShift
-    - LGui
-    - Space
-    - {"t":"Esc","type":"held"}
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-command$$
+    - $$mdi.keyboard-space$$
+    - {"type":"held","t":"Esc"}
     - Esc
-    - Bksp
-    - RGui
+    - $$mdi.backspace-outline$$
+    - $$mdi.apple-keyboard-command$$
   L2:
     - {"t":"~"}
     - {"t":"!"}
@@ -99,7 +99,7 @@ layers:
     - {"t":"("}
     - {"t":")"}
     - null
-    - LCtrl
+    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - {"t":"\""}
@@ -110,25 +110,25 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - Enter
-    - LShift
+    - $$mdi.keyboard-return$$
+    - $$mdi.apple-keyboard-shift$$
     - null
     - null
     - null
     - {"t":"{"}
-    - {"s":"{","t":"["}
-    - {"s":"}","t":"]"}
+    - "{\"t\":\"[\"}"
+    - "{\"t\":\"]\"}"
     - {"t":"}"}
     - null
     - null
     - null
-    - RShift
-    - LGui
-    - Space
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-command$$
+    - $$mdi.keyboard-space$$
     - Esc
-    - {"t":"Esc","type":"held"}
-    - Bksp
-    - RGui
+    - {"type":"held","t":"Esc"}
+    - $$mdi.backspace-outline$$
+    - $$mdi.apple-keyboard-command$$
   L3:
     - F1
     - F2
@@ -142,7 +142,7 @@ layers:
     - F10
     - F11
     - F12
-    - LCtrl
+    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - null
@@ -153,8 +153,8 @@ layers:
     - null
     - null
     - null
-    - Enter
-    - LShift
+    - $$mdi.keyboard-return$$
+    - $$mdi.apple-keyboard-shift$$
     - null
     - null
     - null
@@ -165,12 +165,12 @@ layers:
     - null
     - null
     - null
-    - RShift
-    - LGui
-    - Space
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-command$$
+    - $$mdi.keyboard-space$$
     - "TO L0"
     - "TO L0"
-    - Bksp
-    - RGui
+    - $$mdi.backspace-outline$$
+    - $$mdi.apple-keyboard-command$$
 combos:
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
