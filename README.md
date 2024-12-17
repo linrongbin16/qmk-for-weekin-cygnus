@@ -34,11 +34,7 @@ The keymap is based on the standard **QWERTY** layout, working for macOS. Three 
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
    - In _**"Keys out of order or too many keys?"**_ section, select "Omit -1 keys".
 
-   > NOTE: You can directly upload [settings.json](settings.json) with the _**Load Settings**_ button.
-
 3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
 
    - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
    - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
-
-   > NOTE: You can directly copy [my_config.yaml](my_config.yaml) and paste to the _**Raw configuration**_ of the _**Configuration**_ section.
