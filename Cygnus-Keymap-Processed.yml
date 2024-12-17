@@ -60,7 +60,7 @@ layers:
     - null
     - null
     - {"t":"'"}
-    - {"s":"_","t":"-"}
+    - {"t":"-"}
     - {"t":"="}
     - $$mdi.arrow-left$$
     - $$mdi.arrow-down$$
