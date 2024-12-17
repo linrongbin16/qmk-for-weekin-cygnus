@@ -62,16 +62,17 @@ def json_from_string(s: str) -> dict:
 def replace_json_item(line: str, o: typing.Any) -> str:
     prefix = line.find("-")
     result = "".join([" " for i in range(prefix)]) + f"- " + json_to_string(o) + "\n"
+    print(f"line:{line}, result:{result}")
     return result
 
 
 def remove_pair_symbols(inputs: list[str]) -> list[str]:
     RemoveSymbolsMap = {
-        json_to_string({"t": "'", "s": '"'}): json_to_string({"t": "'"}),
-        json_to_string({"t": "-", "s": "_"}): json_to_string({"t": "-"}),
-        json_to_string({"t": "=", "s": "+"}): json_to_string({"t": "="}),
-        json_to_string({"t": "[", "s": "{"}): json_to_string({"t": "["}),
-        json_to_string({"t": "]", "s": "}"}): json_to_string({"t": "]"}),
+        json_to_string({"t": "'", "s": '"'}): {"t": "'"},
+        json_to_string({"t": "-", "s": "_"}): {"t": "-"},
+        json_to_string({"t": "=", "s": "+"}): {"t": "="},
+        json_to_string({"t": "[", "s": "{"}): {"t": "["},
+        json_to_string({"t": "]", "s": "}"}): {"t": "]"},
     }
     outputs = []
     for line in inputs:

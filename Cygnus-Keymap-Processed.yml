@@ -59,9 +59,9 @@ layers:
     - $$mdi.apple-keyboard-control$$
     - null
     - null
-    - "{\"t\":\"'\"}"
+    - {"t":"'"}
     - {"s":"_","t":"-"}
-    - "{\"t\":\"=\"}"
+    - {"t":"="}
     - $$mdi.arrow-left$$
     - $$mdi.arrow-down$$
     - $$mdi.arrow-up$$
@@ -73,8 +73,8 @@ layers:
     - null
     - null
     - {"t":"{"}
-    - "{\"t\":\"[\"}"
-    - "{\"t\":\"]\"}"
+    - {"t":"["}
+    - {"t":"]"}
     - {"t":"}"}
     - null
     - null
@@ -116,8 +116,8 @@ layers:
     - null
     - null
     - {"t":"{"}
-    - "{\"t\":\"[\"}"
-    - "{\"t\":\"]\"}"
+    - {"t":"["}
+    - {"t":"]"}
     - {"t":"}"}
     - null
     - null
