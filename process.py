@@ -105,10 +105,38 @@ def replace_t_symbols(inputs: list[str]) -> list[str]:
     return outputs
 
 
+def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
+    RemoveSymbols = ["LSFT+", "{", "}"]
+
+    is_combos = False
+    outputs = []
+    for line in inputs:
+        result = None
+        if line.strip().startswith("combos"):
+            is_combos = True
+        if is_combos and is_json_item(line):
+            for symbol in RemoveSymbols:
+                line_json_data = json_from_string(line.replace("-", "", 1).strip())
+                if (
+                    "k" in line_json_data
+                    and "s" in line_json_data["k"]
+                    and line_json_data["k"]["s"] == symbol
+                ):
+                    line_json_data["k"].pop("s")
+                    result = replace_json_item(line, line_json_data)
+                    break
+        if not result:
+            result = line
+        outputs.append(result)
+
+    return outputs
+
+
 with open("Cygnus-Keymap.yml", "r") as src:
     lines = src.readlines()
     lines = add_keycode_icons(lines)
     lines = remove_s_symbols(lines)
     lines = replace_t_symbols(lines)
+    lines = remove_s_symbols_for_combos(lines)
     with open("Cygnus-Keymap-Processed.yml", "w") as dst:
         dst.writelines(lines)
