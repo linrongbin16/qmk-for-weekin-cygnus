@@ -59,7 +59,7 @@ layers:
     - $$mdi.apple-keyboard-control$$
     - null
     - null
-    - {"t":"'"}
+    - null
     - {"t":"-"}
     - {"t":"="}
     - $$mdi.arrow-left$$
@@ -72,10 +72,10 @@ layers:
     - null
     - null
     - null
-    - {"t":"{"}
-    - {"t":"["}
-    - {"t":"]"}
-    - {"t":"}"}
+    - null
+    - {"t":"'"}
+    - {"t":"\""}
+    - null
     - null
     - null
     - null
@@ -102,7 +102,7 @@ layers:
     - $$mdi.apple-keyboard-control$$
     - null
     - null
-    - {"t":"\""}
+    - null
     - {"t":"_"}
     - {"t":"+"}
     - Home
@@ -115,10 +115,10 @@ layers:
     - null
     - null
     - null
-    - {"t":"{"}
-    - {"t":"["}
-    - {"t":"]"}
-    - {"t":"}"}
+    - null
+    - {"t":"'"}
+    - {"t":"\""}
+    - null
     - null
     - null
     - null
@@ -174,3 +174,9 @@ layers:
     - $$mdi.apple-keyboard-command$$
 combos:
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
+  - {"k":{"s":"LSFT+","t":"("},"l":["L0"],"p":[3,37]}
+  - {"k":{"s":"{","t":"["},"l":["L0"],"p":[15,37]}
+  - {"k":{"s":"LSFT+","t":"{"},"l":["L0"],"p":[27,37]}
+  - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,40]}
+  - {"k":{"s":"}","t":"]"},"l":["L0"],"p":[20,40]}
+  - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,40]}
