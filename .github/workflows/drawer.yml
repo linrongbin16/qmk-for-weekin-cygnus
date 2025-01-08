@@ -28,7 +28,7 @@ jobs:
           cd $VTKD
           haxe build-neko.hxml
           cd $SAVED_PWD
-          neko $VTKD/bin/VialToKeymapDrawer.n --vil ./Cygnus-Keymap.vil --keyboard 'splitkb/aurora/corne/rev1' --layout 'LAYOUT_split_3x6_3' --layer '0,1,2,3' --omit-m1 ./Cygnus-Keymap.yml
+          neko $VTKD/bin/VialToKeymapDrawer.n --vil ./Cygnus-Keymap.vil --keyboard 'splitkb/aurora/corne/rev1' --layout 'LAYOUT_split_3x6_3' --layer '0,1,2' --omit-m1 ./Cygnus-Keymap.yml
       - name: Generate SVG
         run: |
           python3 ./process.py
