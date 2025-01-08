@@ -38,11 +38,13 @@ jobs:
           git status
       - name: Generate PNG
         run: |
+          set -x
           sudo apt-get install -y libfuse2
           wget https://github.com/ImageMagick/ImageMagick/releases/tag/7.1.1-43/ImageMagick-a2d96f4-gcc-x86_64.AppImage
           mkdir ~/.magick
           mv ImageMagick-a2d96f4-gcc-x86_64.AppImage ~/.magick/magick
           chmod a+x ~/.magick/magick
+          export PATH="$HOME/.magick:$PATH"
           echo "which magick"
           which magick
           echo "magick --version"
