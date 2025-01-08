@@ -36,6 +36,15 @@ jobs:
           keymap -c my_config.yaml draw Cygnus-Keymap-Processed.yml -o my_keymap.svg
           echo "git status"
           git status
+      - name: Generate PNG
+        run: |
+          mkdir ~/.magick
+          curl -Lo ~/.magick/magick https://github.com/ImageMagick/ImageMagick/releases/tag/7.1.1-43/ImageMagick-a2d96f4-gcc-x86_64.AppImage
+          chmod a+x ~/.magick/magick
+          echo "which magick"
+          which magick
+          echo "magick --version"
+          magick --version
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(SVG): auto update SVG pictures"
