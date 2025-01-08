@@ -56,10 +56,10 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - null
+    - {"t":"'"}
     - {"t":"-"}
     - {"t":"="}
     - $$mdi.arrow-left$$
@@ -67,19 +67,19 @@ layers:
     - $$mdi.arrow-up$$
     - $$mdi.arrow-right$$
     - null
-    - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
     - null
-    - null
-    - null
-    - null
-    - {"t":"'"}
-    - {"t":"\""}
-    - null
-    - null
-    - null
-    - null
-    - $$mdi.apple-keyboard-shift$$
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - F11
+    - F12
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
     - {"type":"held","t":"Esc"}
@@ -99,10 +99,10 @@ layers:
     - {"t":"("}
     - {"t":")"}
     - null
-    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - null
+    - {"t":"\""}
     - {"t":"_"}
     - {"t":"+"}
     - Home
@@ -110,19 +110,19 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
     - null
-    - null
-    - null
-    - null
-    - {"t":"'"}
-    - {"t":"\""}
-    - null
-    - null
-    - null
-    - null
-    - $$mdi.apple-keyboard-shift$$
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - F11
+    - F12
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
     - Esc
@@ -142,7 +142,6 @@ layers:
     - F10
     - F11
     - F12
-    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - null
@@ -153,8 +152,6 @@ layers:
     - null
     - null
     - null
-    - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
     - null
     - null
     - null
@@ -165,7 +162,10 @@ layers:
     - null
     - null
     - null
-    - $$mdi.apple-keyboard-shift$$
+    - null
+    - null
+    - null
+    - null
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
     - "TO L0"
@@ -173,7 +173,6 @@ layers:
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
 combos:
-  - {"k":"TO L3","l":["L0"],"p":[38,39]}
   - {"k":{"t":"("},"l":["L0"],"p":[3,38]}
   - {"k":{"t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"t":"{"},"l":["L0"],"p":[27,38]}
