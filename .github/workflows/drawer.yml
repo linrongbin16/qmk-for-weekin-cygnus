@@ -39,10 +39,10 @@ jobs:
       - name: Generate PNG
         run: |
           sudo apt-get install -y imagemagick
-          echo "which magick"
-          which magick
-          echo "magick --version"
-          magick --version
+          echo "which imagemagick"
+          which imagemagick
+          echo "imagemagick --version"
+          imagemagick --version
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(SVG): auto update SVG pictures"
