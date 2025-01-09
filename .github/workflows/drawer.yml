@@ -12,6 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install PNG Image Tools
+        run: |
+          sudo apt-get install -y imagemagick
+          sudo apt-get install -y inkscape
+          echo "which convert"
+          which convert
+          echo "convert --version"
+          convert --version
       - name: Build VialToKeymapDrawer
         run: |
           export SAVED_PWD="$PWD"
@@ -38,12 +46,7 @@ jobs:
           git status
       - name: Generate PNG
         run: |
-          sudo apt-get install -y imagemagick
-          sudo apt-get install -y inkscape
-          echo "which convert"
-          which convert 
-          echo "convert --version"
-          convert --version
+          convert -density 983 my_keymap.svg my_keymap_generated.png
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(SVG): auto update SVG pictures"
