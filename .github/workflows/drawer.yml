@@ -46,7 +46,7 @@ jobs:
           git status
       - name: Generate PNG
         run: |
-          convert -density 983 my_keymap.svg my_keymap_generated.png
+          convert -density 983 my_keymap.svg my_keymap.png
           echo "git status"
           git status
       - uses: stefanzweifel/git-auto-commit-action@v5
