@@ -19,10 +19,6 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 The keymap is based on the standard **QWERTY** layout, working for macOS. Three layers are been created:
 
-- L0: Alphabet keys (`a`-`z`) and some keys around them (`ctrl`, `cmd`, `enter`, etc).
-- L1: Symbol (`-`, `=`, `,`, `"`, etc), number (`1`-`9`) and navigation (`Up`, `Down`, `Left`, `Right`) keys around the alpha keys.
-- L2: Function (`F1`-`F12`), numpad (`1`-`9`, `+`, `-`, `.`, etc) and other keys.
-
 ![keymap](my_keymap.svg)
 
 ## Generate Keymap Layout
