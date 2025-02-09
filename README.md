@@ -1,6 +1,6 @@
 # Cygnus-Keymap
 
-My cygnus split keyboard keymap, 3 x 6 + 3 thumb keys.
+My cygnus split keyboard keymap, 3x6+3 thumb keys.
 
 <p align="center">
   <img
@@ -19,7 +19,7 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 The keymap is based on the standard **QWERTY** layout, working for macOS. Three layers are been created:
 
-![keymap](my_keymap.svg)
+![keymap](my_keymap.png)
 
 ## Generate Keymap Layout
 
