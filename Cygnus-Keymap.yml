@@ -69,7 +69,7 @@ layers:
     - null
     - Enter
     - LShift
-    - LAlt
+    - null
     - null
     - F1
     - F2
@@ -78,7 +78,7 @@ layers:
     - F5
     - F6
     - null
-    - RAlt
+    - null
     - RShift
     - LGui
     - Space
@@ -105,14 +105,14 @@ layers:
     - {"s":"LSFT+","t":"\""}
     - {"s":"LSFT+","t":"_"}
     - {"s":"LSFT+","t":"+"}
-    - Home
-    - "Page\nDown"
-    - "Page\nUp"
-    - End
+    - Left
+    - Down
+    - Up
+    - Right
     - null
     - Enter
     - LShift
-    - LAlt
+    - null
     - null
     - F7
     - F8
@@ -121,7 +121,7 @@ layers:
     - F11
     - F12
     - null
-    - RAlt
+    - null
     - RShift
     - LGui
     - Space
@@ -136,3 +136,5 @@ combos:
   - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"s":"}","t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,39]}
+  - {"k":"LAlt","l":["L0"],"p":[24,25]}
+  - {"k":"RAlt","l":["L0"],"p":[35,34]}
