@@ -159,11 +159,11 @@ def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
-    with open("Cygnus-Keymap.yml", "r") as src:
+    with open("vail-layout.yml", "r") as src:
         lines = src.readlines()
         lines = add_keycode_icons(lines)
         lines = remove_s_symbols(lines)
         lines = replace_t_symbols(lines)
         lines = remove_s_symbols_for_combos(lines)
-        with open("Cygnus-Keymap-Processed.yml", "w") as dst:
+        with open("vail-layout-processed.yml", "w") as dst:
             dst.writelines(lines)
