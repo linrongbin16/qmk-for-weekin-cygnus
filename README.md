@@ -1,4 +1,4 @@
-# QMK firmware for Weekin's Cygnus Keyboard
+# QMK layout for Weekin's cygnus keyboard
 
 <p align="center">
   <img
@@ -13,15 +13,15 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
   />
 </p>
 
-## Layers
+## Layout
 
-The keymap is based on the standard **QWERTY** layout, working for macOS. Three layers are been created:
+The layout is based on the standard **QWERTY** layout, working for macOS. Three layers are been created:
 
 ![keymap](my_keymap.png)
 
-## Generate Keymap Layout
+## Drawer
 
-1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `vial-layout.vil` file.
+1. Create the layout by [Vial](https://get.vial.today/), and save to the `vial-layout.vil` file.
 2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `vail-layout.vil` file to yaml contents.
 
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
