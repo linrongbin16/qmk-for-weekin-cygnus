@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import logging
 import typing
 
 
@@ -33,6 +34,8 @@ def add_keycode_icons(inputs: list[str]) -> list[str]:
         for kname, kicon in KeyIconsMap.items():
             if line.strip().startswith(f"- {kname }"):
                 result = line.replace(kname, kicon)
+                logging.debug(f"Replace mac-style icons: {kname} => {kicon}")
+                logging.debug(f"Line: {result}")
                 break
         if not result:
             result = line
@@ -62,7 +65,6 @@ def json_from_string(s: str) -> dict:
 def replace_json_item(line: str, o: typing.Any) -> str:
     prefix = line.find("-")
     result = "".join([" " for i in range(prefix)]) + f"- " + json_to_string(o) + "\n"
-    print(f"line:{line}, result:{result}")
     return result
 
 
@@ -77,6 +79,8 @@ def remove_s_symbols(inputs: list[str]) -> list[str]:
                 if "s" in line_json_data and line_json_data["s"] == symbol:
                     line_json_data.pop("s")
                     result = replace_json_item(line, line_json_data)
+                    logging.debug(f"Remove symbols: {symbol}")
+                    logging.debug(f"Line: {result}")
                     break
         if not result:
             result = line
@@ -97,6 +101,8 @@ def replace_t_symbols(inputs: list[str]) -> list[str]:
                 if "t" in line_json_data and line_json_data["t"] == skey:
                     line_json_data["t"] = svalue
                     result = replace_json_item(line, line_json_data)
+                    logging.debug(f"Replace symbols: {skey} => {svalue}")
+                    logging.debug(f"Line: {result}")
                     break
         if not result:
             result = line
@@ -124,6 +130,8 @@ def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
                 ):
                     line_json_data["k"].pop("s")
                     result = replace_json_item(line, line_json_data)
+                    logging.debug(f"Remove symbols for combo: {symbol}")
+                    logging.debug(f"Line: {result}")
                     break
         if not result:
             result = line
@@ -132,11 +140,13 @@ def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
     return outputs
 
 
-with open("Cygnus-Keymap.yml", "r") as src:
-    lines = src.readlines()
-    lines = add_keycode_icons(lines)
-    lines = remove_s_symbols(lines)
-    lines = replace_t_symbols(lines)
-    lines = remove_s_symbols_for_combos(lines)
-    with open("Cygnus-Keymap-Processed.yml", "w") as dst:
-        dst.writelines(lines)
+if __name__ == "__main__":
+    logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
+    with open("Cygnus-Keymap.yml", "r") as src:
+        lines = src.readlines()
+        lines = add_keycode_icons(lines)
+        lines = remove_s_symbols(lines)
+        lines = replace_t_symbols(lines)
+        lines = remove_s_symbols_for_combos(lines)
+        with open("Cygnus-Keymap-Processed.yml", "w") as dst:
+            dst.writelines(lines)
