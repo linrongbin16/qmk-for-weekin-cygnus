@@ -1,6 +1,4 @@
-# Cygnus-Keymap
-
-My cygnus split keyboard keymap, 3x6+3 thumb keys.
+# QMK firmware for Weekin's Cygnus Keyboard
 
 <p align="center">
   <img
