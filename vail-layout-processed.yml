@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - Ctrl
+    - $$mdi.apple-keyboard-control$$
     - A
     - S
     - D
@@ -56,7 +56,7 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - Ctrl
+    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - {"t":"'"}
@@ -99,7 +99,7 @@ layers:
     - {"t":"("}
     - {"t":")"}
     - null
-    - Ctrl
+    - $$mdi.apple-keyboard-control$$
     - null
     - null
     - {"t":"\""}
@@ -136,5 +136,5 @@ combos:
   - {"k":{"t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"t":"}"},"l":["L0"],"p":[32,39]}
-  - {"k":"LAlt","l":["L0"],"p":[24,25]}
-  - {"k":"RAlt","l":["L0"],"p":[35,34]}
+  - {"k":"$$mdi.apple-keyboard-option$$","l":["L0"],"p":[24,25]}
+  - {"k":"$$mdi.apple-keyboard-option$$","l":["L0"],"p":[35,34]}
