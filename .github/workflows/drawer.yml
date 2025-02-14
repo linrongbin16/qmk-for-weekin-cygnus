@@ -12,6 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install Fonts
+        run: |
+          sudo apt-get install -qq -y fonts-noto*
+          sudo apt-get install -qq -y fonts-roboto*
+          sudo apt-get install -qq -y fonts-dejavu*
+          sudo apt-get install -qq -y fonts-droid*
+          sudo apt-get install -qq -y fonts-droid*
+          sudo apt install ttf-bitstream-vera*
+          sudo apt install fonts-freefont*
       - name: Install PNG Image Tools
         run: |
           sudo apt-get install -qq -y imagemagick
