@@ -5,29 +5,30 @@ import logging
 import typing
 
 
+KeyIconsMap = {
+    "LGui": "$$mdi.apple-keyboard-command$$",
+    "RGui": "$$mdi.apple-keyboard-command$$",
+    "LShift": "$$mdi.apple-keyboard-shift$$",
+    "RShift": "$$mdi.apple-keyboard-shift$$",
+    "LSFT": "$$mdi.apple-keyboard-shift$$",
+    "RSFT": "$$mdi.apple-keyboard-shift$$",
+    "LCtrl": "$$mdi.apple-keyboard-control$$",
+    "RCtrl": "$$mdi.apple-keyboard-control$$",
+    "LCTL": "$$mdi.apple-keyboard-control$$",
+    "RCTL": "$$mdi.apple-keyboard-control$$",
+    "LAlt": "$$mdi.apple-keyboard-option$$",
+    "RAlt": "$$mdi.apple-keyboard-option$$",
+    "Bksp": "$$mdi.backspace-outline$$",
+    "Tab": "$$mdi.keyboard-tab$$",
+    "Space": "$$mdi.keyboard-space$$",
+    "Enter": "$$mdi.keyboard-return$$",
+    "Left": "$$mdi.arrow-left$$",
+    "Up": "$$mdi.arrow-up$$",
+    "Down": "$$mdi.arrow-down$$",
+    "Right": "$$mdi.arrow-right$$",
+}
+
 def add_keycode_icons(inputs: list[str]) -> list[str]:
-    KeyIconsMap = {
-        "LGui": "$$mdi.apple-keyboard-command$$",
-        "RGui": "$$mdi.apple-keyboard-command$$",
-        "LShift": "$$mdi.apple-keyboard-shift$$",
-        "RShift": "$$mdi.apple-keyboard-shift$$",
-        "LSFT": "$$mdi.apple-keyboard-shift$$",
-        "RSFT": "$$mdi.apple-keyboard-shift$$",
-        "LCtrl": "$$mdi.apple-keyboard-control$$",
-        "RCtrl": "$$mdi.apple-keyboard-control$$",
-        "LCTL": "$$mdi.apple-keyboard-control$$",
-        "RCTL": "$$mdi.apple-keyboard-control$$",
-        "LAlt": "$$mdi.apple-keyboard-option$$",
-        "RAlt": "$$mdi.apple-keyboard-option$$",
-        "Bksp": "$$mdi.backspace-outline$$",
-        "Tab": "$$mdi.keyboard-tab$$",
-        "Space": "$$mdi.keyboard-space$$",
-        "Enter": "$$mdi.keyboard-return$$",
-        "Left": "$$mdi.arrow-left$$",
-        "Up": "$$mdi.arrow-up$$",
-        "Down": "$$mdi.arrow-down$$",
-        "Right": "$$mdi.arrow-right$$",
-    }
     outputs = []
     for line in inputs:
         result = None
@@ -158,29 +159,6 @@ def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
 
 
 def add_keycode_icons_for_combos(inputs: list[str]) -> list[str]:
-    KeyIconsMap = {
-        "LGui": "$$mdi.apple-keyboard-command$$",
-        "RGui": "$$mdi.apple-keyboard-command$$",
-        "LShift": "$$mdi.apple-keyboard-shift$$",
-        "RShift": "$$mdi.apple-keyboard-shift$$",
-        "LSFT": "$$mdi.apple-keyboard-shift$$",
-        "RSFT": "$$mdi.apple-keyboard-shift$$",
-        "LCtrl": "$$mdi.apple-keyboard-control$$",
-        "RCtrl": "$$mdi.apple-keyboard-control$$",
-        "LCTL": "$$mdi.apple-keyboard-control$$",
-        "RCTL": "$$mdi.apple-keyboard-control$$",
-        "LAlt": "$$mdi.apple-keyboard-option$$",
-        "RAlt": "$$mdi.apple-keyboard-option$$",
-        "Bksp": "$$mdi.backspace-outline$$",
-        "Tab": "$$mdi.keyboard-tab$$",
-        "Space": "$$mdi.keyboard-space$$",
-        "Enter": "$$mdi.keyboard-return$$",
-        "Left": "$$mdi.arrow-left$$",
-        "Up": "$$mdi.arrow-up$$",
-        "Down": "$$mdi.arrow-down$$",
-        "Right": "$$mdi.arrow-right$$",
-    }
-
     is_combos = False
     outputs = []
     for line in inputs:
