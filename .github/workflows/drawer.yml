@@ -41,7 +41,7 @@ jobs:
         run: |
           python3 ./process.py
           pipx install keymap-drawer
-          keymap -c my_config.yaml draw vail-layout-processed.yml -o keymap.svg
+          keymap -c keymap_drawer_config.yaml draw vail-layout-processed.yml -o keymap.svg
           echo "git status"
           git status
       - name: Generate PNG
