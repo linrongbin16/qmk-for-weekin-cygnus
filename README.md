@@ -17,7 +17,7 @@ src="https://github.com/user-attachments/assets/62fb9ab4-f29f-4834-9fdf-3b0d631b
 
 The layout is based on the standard **QWERTY** layout, working for macOS. Three layers are been created:
 
-![keymap](my_keymap.png)
+![keymap](keymap.png)
 
 ## Drawer
 
