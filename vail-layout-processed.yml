@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - $$mdi.apple-keyboard-control$$
+    - Ctrl
     - A
     - S
     - D
@@ -56,7 +56,7 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - $$mdi.apple-keyboard-control$$
+    - Ctrl
     - null
     - null
     - {"t":"'"}
@@ -99,7 +99,7 @@ layers:
     - {"t":"("}
     - {"t":")"}
     - null
-    - $$mdi.apple-keyboard-control$$
+    - Ctrl
     - null
     - null
     - {"t":"\""}
