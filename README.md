@@ -21,8 +21,8 @@ The keymap is based on the standard **QWERTY** layout, working for macOS. Three 
 
 ## Generate Keymap Layout
 
-1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `Cygnus-Keymap.vil` file.
-2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `Cygnus-Keymap.vil` file to yaml contents.
+1. Create the keymap by [Vial](https://get.vial.today/), and save the keymap into the `vial-layout.vil` file.
+2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `vail-layout.vil` file to yaml contents.
 
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
