@@ -22,7 +22,7 @@ The layout is based on the standard **QWERTY** layout, working for macOS. Three 
 ## Drawer
 
 1. Create the layout by [Vial](https://get.vial.today/), and save to the `vial-layout.vil` file.
-2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `vail-layout.vil` file to yaml contents.
+2. Use the [Vial layout to Keymap Drawer converter](https://yal-tools.github.io/vial-to-keymap-drawer/) to convert the `vail-layout.vil` file to the `vail-layout.yml` yaml file.
 
    - Set _**"Keyboard Kind"**_ as `splitkb/aurora/corne/rev1`.
    - Set _**"Layout Name"**_ as `LAYOUT_split_3x6_3`.
@@ -30,5 +30,5 @@ The layout is based on the standard **QWERTY** layout, working for macOS. Three 
 
 3. Use the [Keymap Drawer](https://keymap-drawer.streamlit.app/) to generate SVG picture.
 
-   - Copy the converted yaml contents, and paste into the _**"Keymap YAML"**_ section.
+   - Copy the `vail-layout.yml` yaml file contents, and paste into the _**"Keymap YAML"**_ section.
    - Click the _**"Run"**_ button, then expand the _**"Export"**_ section and download the SVG file.
