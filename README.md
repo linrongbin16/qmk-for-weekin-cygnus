@@ -1,4 +1,4 @@
-# QMK layout for Weekin's cygnus keyboard
+# QMK keymap for Weekin's cygnus keyboard
 
 <p align="center">
   <img
