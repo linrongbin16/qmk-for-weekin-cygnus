@@ -31,12 +31,17 @@ def add_keycode_icons(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
         result = None
-        for kname, kicon in KeyIconsMap.items():
-            if line.strip().startswith(f"- {kname }"):
-                result = line.replace(kname, kicon)
-                logging.debug(f"Replace mac-style icons: {kname} => {kicon}")
-                logging.debug(f"Line: {result}")
-                break
+        try:
+            for kname, kicon in KeyIconsMap.items():
+                if line.strip().startswith(f"- {kname }"):
+                    result = line.replace(kname, kicon)
+                    logging.debug(f"Replace mac-style icons: {kname} => {kicon}")
+                    logging.debug(f"Line: {result}")
+                    break
+        except Exception as e:
+            logging.error(f"Failed to replace mac-style icons for line: {line}")
+            logging.error(e, exc_info=True)
+
         if not result:
             result = line
         outputs.append(result)
@@ -74,14 +79,18 @@ def remove_s_symbols(inputs: list[str]) -> list[str]:
     for line in inputs:
         result = None
         if is_json_item(line):
-            for symbol in RemoveSymbols:
-                line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                if "s" in line_json_data and line_json_data["s"] == symbol:
-                    line_json_data.pop("s")
-                    result = replace_json_item(line, line_json_data)
-                    logging.debug(f"Remove symbols: {symbol}")
-                    logging.debug(f"Line: {result}")
-                    break
+            try:
+                for symbol in RemoveSymbols:
+                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
+                    if "s" in line_json_data and line_json_data["s"] == symbol:
+                        line_json_data.pop("s")
+                        result = replace_json_item(line, line_json_data)
+                        logging.debug(f"Remove symbols: {symbol}")
+                        logging.debug(f"Line: {result}")
+                        break
+            except Exception as e:
+                logging.error(f"Failed to remove symbols for line: {line}")
+                logging.error(e, exc_info=True)
         if not result:
             result = line
         outputs.append(result)
@@ -96,14 +105,18 @@ def replace_t_symbols(inputs: list[str]) -> list[str]:
     for line in inputs:
         result = None
         if is_json_item(line):
-            for skey, svalue in ReplaceSymbols.items():
-                line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                if "t" in line_json_data and line_json_data["t"] == skey:
-                    line_json_data["t"] = svalue
-                    result = replace_json_item(line, line_json_data)
-                    logging.debug(f"Replace symbols: {skey} => {svalue}")
-                    logging.debug(f"Line: {result}")
-                    break
+            try:
+                for skey, svalue in ReplaceSymbols.items():
+                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
+                    if "t" in line_json_data and line_json_data["t"] == skey:
+                        line_json_data["t"] = svalue
+                        result = replace_json_item(line, line_json_data)
+                        logging.debug(f"Replace symbols: {skey} => {svalue}")
+                        logging.debug(f"Line: {result}")
+                        break
+            except Exception as e:
+                logging.error(f"Failed to replace symbols for line: {line}")
+                logging.error(e, exc_info=True)
         if not result:
             result = line
         outputs.append(result)
@@ -121,18 +134,22 @@ def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
         if line.strip().startswith("combos"):
             is_combos = True
         if is_combos and is_json_item(line):
-            for symbol in RemoveSymbols:
-                line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                if (
-                    "k" in line_json_data
-                    and "s" in line_json_data["k"]
-                    and line_json_data["k"]["s"] == symbol
-                ):
-                    line_json_data["k"].pop("s")
-                    result = replace_json_item(line, line_json_data)
-                    logging.debug(f"Remove symbols for combo: {symbol}")
-                    logging.debug(f"Line: {result}")
-                    break
+            try:
+                for symbol in RemoveSymbols:
+                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
+                    if (
+                        "k" in line_json_data
+                        and "s" in line_json_data["k"]
+                        and line_json_data["k"]["s"] == symbol
+                    ):
+                        line_json_data["k"].pop("s")
+                        result = replace_json_item(line, line_json_data)
+                        logging.debug(f"Remove symbols for combo: {symbol}")
+                        logging.debug(f"Line: {result}")
+                        break
+            except Exception as e:
+                logging.error(f"Failed to remove symbols for combo for line: {line}")
+                logging.error(e, exc_info=True)
         if not result:
             result = line
         outputs.append(result)
