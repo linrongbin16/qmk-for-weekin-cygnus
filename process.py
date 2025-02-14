@@ -171,7 +171,7 @@ def add_keycode_icons_for_combos(inputs: list[str]) -> list[str]:
                 for kname, kicon in KeyIconsMap.items():
                     if (
                         "k" in line_json_data
-                        line_json_data["k"] == kname
+                        and line_json_data["k"] == kname
                     ):
                         line_json_data["k"] = kicon
                         result = replace_json_item(line, line_json_data)
