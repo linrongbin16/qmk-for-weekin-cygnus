@@ -50,18 +50,18 @@ layers:
     - {"s":"#","t":"3"}
     - {"s":"$","t":"4"}
     - {"s":"%","t":"5"}
-    - {"s":"^","t":"6"}
-    - {"s":"&","t":"7"}
-    - {"s":"*","t":"8"}
-    - {"s":"(","t":"9"}
-    - {"s":")","t":"0"}
-    - null
-    - $$mdi.apple-keyboard-control$$
-    - null
-    - null
     - {"t":"'"}
     - {"t":"-"}
     - {"t":"="}
+    - null
+    - null
+    - null
+    - $$mdi.apple-keyboard-control$$
+    - {"s":"^","t":"6"}
+    - {"s":"&","t":"7"}
+    - {"s":"&","t":"7"}
+    - {"s":"(","t":"9"}
+    - {"s":")","t":"0"}
     - $$mdi.arrow-left$$
     - $$mdi.arrow-down$$
     - $$mdi.arrow-up$$
@@ -69,16 +69,16 @@ layers:
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-option$$
     - null
     - null
-    - F1
-    - F2
-    - F3
-    - F4
-    - F5
-    - F6
     - null
     - null
+    - {"t":"\""}
+    - {"t":"_"}
+    - {"t":"+"}
+    - null
+    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
@@ -93,35 +93,35 @@ layers:
     - {"t":"#"}
     - {"t":"$"}
     - {"t":"%"}
+    - {"t":"'"}
+    - {"t":"-"}
+    - {"t":"="}
+    - null
+    - null
+    - null
+    - $$mdi.apple-keyboard-control$$
     - {"t":"^"}
     - {"t":"&"}
     - {"t":"*"}
     - {"t":"("}
     - {"t":")"}
+    - Home
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
     - null
-    - $$mdi.apple-keyboard-control$$
+    - $$mdi.keyboard-return$$
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-option$$
+    - null
+    - null
     - null
     - null
     - {"t":"\""}
     - {"t":"_"}
     - {"t":"+"}
-    - $$mdi.arrow-left$$
-    - $$mdi.arrow-down$$
-    - $$mdi.arrow-up$$
-    - $$mdi.arrow-right$$
     - null
-    - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
-    - null
-    - null
-    - F7
-    - F8
-    - F9
-    - F10
-    - F11
-    - F12
-    - null
-    - null
+    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
@@ -130,11 +130,11 @@ layers:
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
 combos:
+  - {"k":"Esc","l":["L0"],"p":[0,1]}
   - {"k":{"t":"("},"l":["L0"],"p":[3,38]}
   - {"k":{"t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"t":"{"},"l":["L0"],"p":[27,38]}
   - {"k":{"t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"t":"}"},"l":["L0"],"p":[32,39]}
-  - {"k":"$$mdi.apple-keyboard-option$$","l":["L0"],"p":[24,25]}
-  - {"k":"$$mdi.apple-keyboard-option$$","l":["L0"],"p":[35,34]}
+  - {"k":"TO L3","l":["L0"],"p":[38,39]}
