@@ -41,7 +41,7 @@ layers:
     - Space
     - "MO L1"
     - "MO L2"
-    - Bksp
+    - RAlt
     - RGui
   L1:
     - {"s":"~","t":"`"}
@@ -50,18 +50,18 @@ layers:
     - {"s":"#","t":"3"}
     - {"s":"$","t":"4"}
     - {"s":"%","t":"5"}
+    - {"s":"\"","t":"'"}
+    - {"s":"_","t":"-"}
+    - {"s":"+","t":"="}
+    - null
+    - null
+    - null
+    - LCtrl
     - {"s":"^","t":"6"}
     - {"s":"&","t":"7"}
     - {"s":"*","t":"8"}
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
-    - null
-    - LCtrl
-    - null
-    - null
-    - {"s":"\"","t":"'"}
-    - {"s":"_","t":"-"}
-    - {"s":"+","t":"="}
     - Left
     - Down
     - Up
@@ -69,22 +69,22 @@ layers:
     - null
     - Enter
     - LShift
+    - LAlt
     - null
     - null
-    - F1
-    - F2
-    - F3
-    - F4
-    - F5
-    - F6
     - null
     - null
+    - {"s":"LSFT+","t":"\""}
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"LSFT+","t":"+"}
+    - null
+    - RAlt
     - RShift
     - LGui
     - Space
-    - {"type":"held","t":"Esc"}
-    - Esc
-    - Bksp
+    - {"type":"held","s":"LSFT+","t":"<"}
+    - {"s":"LSFT+","t":">"}
+    - RAlt
     - RGui
   L2:
     - {"s":"LSFT+","t":"~"}
@@ -93,48 +93,92 @@ layers:
     - {"s":"LSFT+","t":"#"}
     - {"s":"LSFT+","t":"$"}
     - {"s":"LSFT+","t":"%"}
+    - {"s":"\"","t":"'"}
+    - {"s":"_","t":"-"}
+    - {"s":"+","t":"="}
+    - null
+    - null
+    - null
+    - LCtrl
     - {"s":"LSFT+","t":"^"}
     - {"s":"LSFT+","t":"&"}
     - {"s":"LSFT+","t":"*"}
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
+    - Home
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
     - null
-    - LCtrl
+    - Enter
+    - LShift
+    - LAlt
+    - null
+    - null
     - null
     - null
     - {"s":"LSFT+","t":"\""}
     - {"s":"LSFT+","t":"_"}
     - {"s":"LSFT+","t":"+"}
-    - Left
-    - Down
-    - Up
-    - Right
     - null
-    - Enter
-    - LShift
-    - null
-    - null
+    - RAlt
+    - RShift
+    - LGui
+    - Space
+    - {"s":"LSFT+","t":"<"}
+    - {"type":"held","s":"LSFT+","t":">"}
+    - RAlt
+    - RGui
+  L3:
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - F6
     - F7
     - F8
     - F9
     - F10
     - F11
     - F12
+    - LCtrl
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - Enter
+    - LShift
+    - LAlt
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - RAlt
     - RShift
     - LGui
     - Space
-    - Esc
-    - {"type":"held","t":"Esc"}
-    - Bksp
+    - "TO L0"
+    - "TO L0"
+    - RAlt
     - RGui
 combos:
+  - {"k":"Esc","l":["L0"],"p":[0,1]}
   - {"k":{"s":"LSFT+","t":"("},"l":["L0"],"p":[3,38]}
   - {"k":{"s":"{","t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"s":"LSFT+","t":"{"},"l":["L0"],"p":[27,38]}
   - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"s":"}","t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,39]}
-  - {"k":"LAlt","l":["L0"],"p":[24,25]}
-  - {"k":"RAlt","l":["L0"],"p":[35,34]}
+  - {"k":"Bksp","l":["L0"],"p":[10,11]}
+  - {"k":"TO L3","l":["L0"],"p":[38,39]}
