@@ -59,7 +59,7 @@ layers:
     - $$mdi.apple-keyboard-control$$
     - {"s":"^","t":"6"}
     - {"s":"&","t":"7"}
-    - {"s":"&","t":"7"}
+    - {"s":"*","t":"8"}
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - $$mdi.arrow-left$$
@@ -82,8 +82,8 @@ layers:
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
-    - {"type":"held","t":"Esc"}
-    - Esc
+    - {"t":"<","type":"held"}
+    - {"t":">"}
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
   L2:
@@ -125,8 +125,8 @@ layers:
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
-    - Esc
-    - {"type":"held","t":"Esc"}
+    - {"t":"<"}
+    - {"t":">","type":"held"}
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
 combos:
