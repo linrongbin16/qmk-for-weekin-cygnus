@@ -50,18 +50,18 @@ layers:
     - {"s":"#","t":"3"}
     - {"s":"$","t":"4"}
     - {"s":"%","t":"5"}
-    - {"t":"'"}
-    - {"t":"-"}
-    - {"t":"="}
-    - null
-    - null
-    - null
-    - $$mdi.apple-keyboard-control$$
     - {"s":"^","t":"6"}
     - {"s":"&","t":"7"}
     - {"s":"*","t":"8"}
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
+    - null
+    - $$mdi.apple-keyboard-control$$
+    - null
+    - null
+    - {"t":"'"}
+    - {"t":"-"}
+    - {"t":"="}
     - $$mdi.arrow-left$$
     - $$mdi.arrow-down$$
     - $$mdi.arrow-up$$
@@ -69,16 +69,16 @@ layers:
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-option$$
-    - null
-    - null
     - null
     - null
     - {"t":"\""}
     - {"t":"_"}
     - {"t":"+"}
+    - Home
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
     - null
-    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
@@ -93,35 +93,35 @@ layers:
     - {"t":"#"}
     - {"t":"$"}
     - {"t":"%"}
-    - {"t":"'"}
-    - {"t":"-"}
-    - {"t":"="}
-    - null
-    - null
-    - null
-    - $$mdi.apple-keyboard-control$$
     - {"t":"^"}
     - {"t":"&"}
     - {"t":"*"}
     - {"t":"("}
     - {"t":")"}
-    - Home
-    - "Page\nDown"
-    - "Page\nUp"
-    - End
+    - null
+    - $$mdi.apple-keyboard-control$$
+    - null
+    - null
+    - {"t":"'"}
+    - {"t":"-"}
+    - {"t":"="}
+    - $$mdi.arrow-left$$
+    - $$mdi.arrow-down$$
+    - $$mdi.arrow-up$$
+    - $$mdi.arrow-right$$
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-option$$
-    - null
-    - null
     - null
     - null
     - {"t":"\""}
     - {"t":"_"}
     - {"t":"+"}
+    - Home
+    - "Page\nDown"
+    - "Page\nUp"
+    - End
     - null
-    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
@@ -155,7 +155,6 @@ layers:
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-option$$
     - null
     - null
     - null
@@ -164,7 +163,8 @@ layers:
     - null
     - null
     - null
-    - $$mdi.apple-keyboard-option$$
+    - null
+    - null
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
