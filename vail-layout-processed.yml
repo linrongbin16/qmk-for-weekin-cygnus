@@ -58,32 +58,32 @@ layers:
     - null
     - Esc
     - null
-    - null
-    - {"t":"'"}
-    - {"t":"-"}
-    - {"t":"="}
     - $$mdi.arrow-left$$
-    - $$mdi.arrow-down$$
     - $$mdi.arrow-up$$
     - $$mdi.arrow-right$$
     - null
+    - {"t":"-"}
+    - {"t":"_"}
+    - {"t":"="}
+    - {"t":"+"}
+    - null
     - $$mdi.keyboard-return$$
     - null
-    - null
-    - null
-    - {"t":"\""}
-    - {"t":"_"}
-    - {"t":"+"}
     - Home
+    - null
+    - $$mdi.arrow-down$$
+    - null
     - "Page\nDown"
     - "Page\nUp"
-    - End
     - null
+    - null
+    - null
+    - End
     - null
     - {"t":"<"}
     - $$mdi.keyboard-space$$
-    - {"t":"<","type":"held"}
-    - {"t":">"}
+    - {"t":"'","type":"held"}
+    - {"t":"\""}
     - $$mdi.backspace-outline$$
     - {"t":">"}
   L2:
@@ -101,32 +101,32 @@ layers:
     - null
     - Esc
     - null
-    - null
-    - {"t":"'"}
-    - {"t":"-"}
-    - {"t":"="}
     - $$mdi.arrow-left$$
-    - $$mdi.arrow-down$$
     - $$mdi.arrow-up$$
     - $$mdi.arrow-right$$
     - null
+    - {"t":"-"}
+    - {"t":"_"}
+    - {"t":"="}
+    - {"t":"+"}
+    - null
     - $$mdi.keyboard-return$$
     - null
-    - null
-    - null
-    - {"t":"\""}
-    - {"t":"_"}
-    - {"t":"+"}
     - Home
+    - null
+    - $$mdi.arrow-down$$
+    - null
     - "Page\nDown"
     - "Page\nUp"
-    - End
     - null
+    - null
+    - null
+    - End
     - null
     - {"t":"<"}
     - $$mdi.keyboard-space$$
-    - {"t":"<"}
-    - {"t":">","type":"held"}
+    - {"t":"'"}
+    - {"t":"\"","type":"held"}
     - $$mdi.backspace-outline$$
     - {"t":">"}
   L3:

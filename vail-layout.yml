@@ -58,32 +58,32 @@ layers:
     - null
     - Esc
     - null
-    - null
-    - {"s":"\"","t":"'"}
-    - {"s":"_","t":"-"}
-    - {"s":"+","t":"="}
     - Left
-    - Down
     - Up
     - Right
     - null
+    - {"s":"_","t":"-"}
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"+","t":"="}
+    - {"s":"LSFT+","t":"+"}
+    - null
     - Enter
     - null
-    - null
-    - null
-    - {"s":"LSFT+","t":"\""}
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"LSFT+","t":"+"}
     - Home
+    - null
+    - Down
+    - null
     - "Page\nDown"
     - "Page\nUp"
-    - End
     - null
+    - null
+    - null
+    - End
     - null
     - {"s":"LSFT+","t":"<"}
     - Space
-    - {"type":"held","s":"LSFT+","t":"<"}
-    - {"s":"LSFT+","t":">"}
+    - {"type":"held","s":"\"","t":"'"}
+    - {"s":"LSFT+","t":"\""}
     - Bksp
     - {"s":"LSFT+","t":">"}
   L2:
@@ -101,32 +101,32 @@ layers:
     - null
     - Esc
     - null
-    - null
-    - {"s":"\"","t":"'"}
-    - {"s":"_","t":"-"}
-    - {"s":"+","t":"="}
     - Left
-    - Down
     - Up
     - Right
     - null
+    - {"s":"_","t":"-"}
+    - {"s":"LSFT+","t":"_"}
+    - {"s":"+","t":"="}
+    - {"s":"LSFT+","t":"+"}
+    - null
     - Enter
     - null
-    - null
-    - null
-    - {"s":"LSFT+","t":"\""}
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"LSFT+","t":"+"}
     - Home
+    - null
+    - Down
+    - null
     - "Page\nDown"
     - "Page\nUp"
-    - End
     - null
+    - null
+    - null
+    - End
     - null
     - {"s":"LSFT+","t":"<"}
     - Space
-    - {"s":"LSFT+","t":"<"}
-    - {"type":"held","s":"LSFT+","t":">"}
+    - {"s":"\"","t":"'"}
+    - {"type":"held","s":"LSFT+","t":"\""}
     - Bksp
     - {"s":"LSFT+","t":">"}
   L3:
