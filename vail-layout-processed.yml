@@ -1,7 +1,7 @@
 layout: {"qmk_layout":"LAYOUT_split_3x6_3","qmk_keyboard":"splitkb/aurora/corne/rev1"}
 layers:
   L0:
-    - Tab
+    - $$mdi.keyboard-tab$$
     - Q
     - W
     - E
@@ -14,17 +14,17 @@ layers:
     - P
     - {"s":"|","t":"\\"}
     - Esc
-    - {"h":"LAlt","s":"TD(0)","t":"A"}
-    - {"h":"LGui","s":"TD(1)","t":"S"}
-    - {"h":"LCtrl","s":"TD(2)","t":"D"}
-    - {"h":"LShift","s":"TD(3)","t":"F"}
+    - {"h":"$$mdi.apple-keyboard-option$$","t":"A"}
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"S"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"D"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"F"}
     - G
     - H
-    - {"h":"RShift","s":"TD(4)","t":"J"}
-    - {"h":"RCtrl","s":"TD(5)","t":"K"}
-    - {"h":"RGui","s":"TD(6)","t":"L"}
-    - {"h":"RAlt","s":"TD(7)","s":":","t":";"}
-    - Enter
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"J"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"K"}
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"L"}
+    - {"h":"$$mdi.apple-keyboard-option$$","s":":","t":";"}
+    - $$mdi.keyboard-return$$
     - null
     - Z
     - X
@@ -37,12 +37,12 @@ layers:
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
     - null
-    - {"s":"LSFT+","t":"<"}
-    - Space
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - $$mdi.keyboard-space$$
     - "MO L1"
     - "MO L2"
-    - Bksp
-    - {"s":"LSFT+","t":">"}
+    - $$mdi.backspace-outline$$
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -57,78 +57,78 @@ layers:
     - {"s":")","t":"0"}
     - null
     - Esc
-    - LAlt
-    - {"h":"LGui","s":"TD(8)","t":"Left"}
-    - {"h":"LCtrl","s":"TD(9)","t":"Up"}
-    - {"h":"LShift","s":"TD(10)","t":"$$mdi.arrow-right$$"}
+    - $$mdi.apple-keyboard-option$$
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"$$mdi.arrow-left$$"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
     - {"s":"_","t":"-"}
-    - {"h":"RShift","s":"TD(11)","t":"_"}
-    - {"h":"RCtrl","s":"TD(12)","t":"+  ="}
-    - {"h":"RGui","s":"TD(13)","t":"+"}
-    - RAlt
-    - Enter
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
+    - $$mdi.apple-keyboard-option$$
+    - $$mdi.keyboard-return$$
     - null
     - Home
     - null
-    - Down
+    - $$mdi.arrow-down$$
     - null
-    - "Page\nDown"
-    - "Page\nUp"
+    - "Page\n$$mdi.arrow-down$$"
+    - "Page\n$$mdi.arrow-up$$"
     - null
     - null
     - null
     - End
     - null
-    - {"s":"LSFT+","t":"<"}
-    - Space
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - $$mdi.keyboard-space$$
     - {"type":"held","s":"\"","t":"'"}
-    - {"s":"LSFT+","t":"\""}
-    - Bksp
-    - {"s":"LSFT+","t":">"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"\""}
+    - $$mdi.backspace-outline$$
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
   L2:
-    - {"s":"LSFT+","t":"~"}
-    - {"s":"LSFT+","t":"!"}
-    - {"s":"LSFT+","t":"@"}
-    - {"s":"LSFT+","t":"#"}
-    - {"s":"LSFT+","t":"$"}
-    - {"s":"LSFT+","t":"%"}
-    - {"s":"LSFT+","t":"^"}
-    - {"s":"LSFT+","t":"&"}
-    - {"s":"LSFT+","t":"*"}
-    - {"s":"LSFT+","t":"("}
-    - {"s":"LSFT+","t":")"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"~"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"!"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"@"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"#"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"$"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"%"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"^"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"&"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"*"}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"("}
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":")"}
     - null
     - Esc
-    - LAlt
-    - {"h":"LGui","s":"TD(8)","t":"Left"}
-    - {"h":"LCtrl","s":"TD(9)","t":"Up"}
-    - {"h":"LShift","s":"TD(10)","t":"$$mdi.arrow-right$$"}
+    - $$mdi.apple-keyboard-option$$
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"$$mdi.arrow-left$$"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
     - {"s":"_","t":"-"}
-    - {"h":"RShift","s":"TD(11)","t":"_"}
-    - {"h":"RCtrl","s":"TD(12)","t":"+  ="}
-    - {"h":"RGui","s":"TD(13)","t":"+"}
-    - RAlt
-    - Enter
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
+    - $$mdi.apple-keyboard-option$$
+    - $$mdi.keyboard-return$$
     - null
     - Home
     - null
-    - Down
+    - $$mdi.arrow-down$$
     - null
-    - "Page\nDown"
-    - "Page\nUp"
+    - "Page\n$$mdi.arrow-down$$"
+    - "Page\n$$mdi.arrow-up$$"
     - null
     - null
     - null
     - End
     - null
-    - {"s":"LSFT+","t":"<"}
-    - Space
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - $$mdi.keyboard-space$$
     - {"s":"\"","t":"'"}
-    - {"type":"held","s":"LSFT+","t":"\""}
-    - Bksp
-    - {"s":"LSFT+","t":">"}
+    - {"type":"held","s":"$$mdi.apple-keyboard-shift$$+","t":"\""}
+    - $$mdi.backspace-outline$$
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
   L3:
     - null
     - F1
@@ -153,7 +153,7 @@ layers:
     - "5"
     - "6"
     - null
-    - Enter
+    - $$mdi.keyboard-return$$
     - null
     - F9
     - F10
@@ -166,18 +166,18 @@ layers:
     - "3"
     - null
     - null
-    - {"s":"LSFT+","t":"<"}
-    - Space
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - $$mdi.keyboard-space$$
     - "TO L0"
     - "TO L0"
-    - Bksp
-    - {"s":"LSFT+","t":">"}
+    - $$mdi.backspace-outline$$
+    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
 combos:
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
-  - {"k":{"s":"LSFT+","t":"("},"l":["L0"],"p":[3,38]}
-  - {"k":{"s":"{","t":"["},"l":["L0"],"p":[15,38]}
-  - {"k":{"s":"LSFT+","t":"{"},"l":["L0"],"p":[27,38]}
-  - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,39]}
+  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"("},"l":["L0"],"p":[3,38]}
+  - {"k":{"t":"["},"l":["L0"],"p":[15,38]}
+  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"{"},"l":["L0"],"p":[27,38]}
+  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
-  - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,39]}
+  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"}"},"l":["L0"],"p":[32,39]}
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
