@@ -109,9 +109,9 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
     with open("vail-layout.yml", "r") as src:
         lines = src.readlines()
-        lines = add_icons(lines)
         lines = remove_shifted(lines)
         lines = remove_shifted_combos(lines)
+        lines = add_icons(lines)
         lines = replace_taps(lines)
         with open("vail-layout-processed.yml", "w") as dst:
             dst.writelines(lines)
