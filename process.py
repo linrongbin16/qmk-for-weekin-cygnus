@@ -35,7 +35,9 @@ def add_icons(inputs: list[str]) -> list[str]:
     for line in inputs:
         result = line
         for name, value in IconsMap.items():
-            result = line.replace(name, value)
+            result = result.replace(name, value)
+            logging.debug(f"Add icon:{name} => {value}")
+        logging.debug(result)
         outputs.append(result)
     return outputs
 
@@ -49,7 +51,9 @@ def remove_shifted(inputs: list[str]) -> list[str]:
         result = line
         for sym in ShiftedMap:
             target = '"s":"' + sym + '",'
-            result = line.replace(target, "")
+            result = result.replace(target, "")
+            logging.debug(f"Remove shifted:{target}")
+        logging.debug(result)
         outputs.append(result)
 
     return outputs
@@ -72,7 +76,9 @@ def remove_shifted_combos(inputs: list[str]) -> list[str]:
         if is_combos:
             for sym in ShiftedCombosMap:
                 target = '"s":"' + sym + '",'
-                result = line.replace(target, "")
+                result = result.replace(target, "")
+                logging.debug(f"Remove shifted combo:{target}")
+        logging.debug(result)
         outputs.append(result)
 
     return outputs
@@ -91,7 +97,9 @@ def replace_taps(inputs: list[str]) -> list[str]:
         for name, value in TapsMap.items():
             pattern = '"t":"' + name + '"'
             target = '"s":"' + value["s"] + '","t":"' + value["t"] + '"'
-            result = line.replace(pattern, target)
+            result = result.replace(pattern, target)
+            logging.debug(f"Replace tap:{name} => {value}")
+        logging.debug(result)
         outputs.append(result)
 
     return outputs
