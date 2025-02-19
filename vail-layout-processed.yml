@@ -64,7 +64,7 @@ layers:
     - null
     - {"s":"_","t":"-"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
-    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-control$$","s":"+","t":"="}
     - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
@@ -107,7 +107,7 @@ layers:
     - null
     - {"s":"_","t":"-"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
-    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-control$$","s":"+","t":"="}
     - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
