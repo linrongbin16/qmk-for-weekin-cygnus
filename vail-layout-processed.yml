@@ -14,16 +14,16 @@ layers:
     - P
     - {"s":"|","t":"\\"}
     - $$mdi.apple-keyboard-control$$
-    - {"h":"LALT","t":"A"}
-    - {"h":"LGUI","t":"S"}
-    - {"h":"LCTL","t":"D"}
-    - {"h":"LSFT","t":"F"}
+    - {"h":"LAlt","s":"TD(0)","t":"A"}
+    - {"h":"LGui","s":"TD(1)","t":"S"}
+    - {"h":"LCtrl","s":"TD(2)","t":"D"}
+    - {"h":"LShift","s":"TD(3)","t":"F"}
     - G
     - H
-    - {"h":"RSFT","t":"J"}
-    - {"h":"RCTL","t":"K"}
-    - {"h":"RGUI","t":"L"}
-    - {"h":"RALT","s":":","t":";"}
+    - {"h":"RShift","s":"TD(4)","t":"J"}
+    - {"h":"RCtrl","s":"TD(5)","t":"K"}
+    - {"h":"RGui","s":"TD(6)","t":"L"}
+    - {"h":"RAlt","s":"TD(7)","t":":  ;"}
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
     - Z
