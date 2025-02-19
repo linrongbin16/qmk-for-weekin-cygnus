@@ -39,9 +39,9 @@ jobs:
           neko $VTKD/bin/VialToKeymapDrawer.n --vil ./vail-layout.vil --keyboard 'splitkb/aurora/corne/rev1' --layout 'LAYOUT_split_3x6_3' --layer '0,1,2,3' --omit-m1 ./vail-layout.yml
       - name: Generate SVG
         run: |
-          #python3 ./process.py
+          python3 ./process.py
           pipx install keymap-drawer
-          keymap -c keymap_drawer_config.yaml draw vail-layout.yml -o keymap.svg
+          keymap -c keymap_drawer_config.yaml draw vail-layout-processed.yml -o keymap.svg
           echo "git status"
           git status
       - name: Generate PNG
