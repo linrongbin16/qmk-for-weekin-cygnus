@@ -40,21 +40,21 @@ def add_icons(inputs: list[str]) -> list[str]:
     return outputs
 
 
-RemoveShiftedMap = ["LSFT+"] + [f"TD({i})" for i in range(30)]
+ShiftedMap = ["LSFT+"] + [f"TD({i})" for i in range(30)]
 
 
 def remove_shifted(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
         result = line
-        for sym in RemoveShiftedMap:
-            target = '"s":"' + sym + ','
+        for sym in ShiftedMap:
+            target = '"s":"' + sym + '",'
             result = line.replace(target, "")
         outputs.append(result)
 
     return outputs
 
-RemoveShiftedCombosMap = RemoveShiftedMap + [
+ShiftedCombosMap = RemoveShiftedMap + [
     '"',
     "_",
     "+",
@@ -70,27 +70,28 @@ def remove_shifted_combos(inputs: list[str]) -> list[str]:
         if line.strip().startswith("combos"):
             is_combos = True
         if is_combos:
-            for sym in RemoveShiftedCombosMap:
-                target = '"s":"' + sym + ','
+            for sym in ShiftedCombosMap:
+                target = '"s":"' + sym + '",'
                 result = line.replace(target, "")
         outputs.append(result)
 
     return outputs
 
-ReplaceSymbols = {
+TapsMap = {
         "}  ]": {"t": "]", "s": "}"},
         "{  [": {"t": "[", "s": "{"},
         "\"  '": {"t": "'", "s": '"'},
         ":  ;": {"t": ";", "s": ":"},
 }
 
-def replace_tap_symbols(inputs: list[str]) -> list[str]:
+def replace_taps(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
         result = line
-        for sym in RemoveShiftedCombosMap:
-            target = '"s":"' + sym + ','
-            result = line.replace(target, "")
+        for name, value in TapsMap.items():
+            pattern = '"t":"' + name + '"'
+            target = '"s":"' + value["s"] + '","t":"' + value["t"] + '"'
+            result = line.replace(pattern, target)
         outputs.append(result)
 
     return outputs
@@ -103,6 +104,6 @@ if __name__ == "__main__":
         lines = add_icons(lines)
         lines = remove_shifted(lines)
         lines = remove_shifted_combos(lines)
-        lines = replace_tap_symbols(lines)
+        lines = replace_taps(lines)
         with open("vail-layout-processed.yml", "w") as dst:
             dst.writelines(lines)
