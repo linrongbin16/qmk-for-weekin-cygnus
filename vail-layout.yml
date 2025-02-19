@@ -37,12 +37,12 @@ layers:
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
     - null
-    - null
+    - {"s":"LSFT+","t":"<"}
     - Space
-    - {"h":"MO L1","s":"TD(8)","t":"<"}
-    - {"h":"MO L2","s":"TD(9)","t":">"}
+    - "MO L1"
+    - "MO L2"
     - Bksp
-    - null
+    - {"s":"LSFT+","t":">"}
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -80,12 +80,12 @@ layers:
     - End
     - null
     - null
-    - null
-    - Space
     - {"s":"LSFT+","t":"<"}
+    - Space
+    - {"type":"held","s":"LSFT+","t":"<"}
     - {"s":"LSFT+","t":">"}
     - Bksp
-    - null
+    - {"s":"LSFT+","t":">"}
   L2:
     - {"s":"LSFT+","t":"~"}
     - {"s":"LSFT+","t":"!"}
@@ -123,12 +123,12 @@ layers:
     - End
     - null
     - null
-    - null
+    - {"s":"LSFT+","t":"<"}
     - Space
     - {"s":"LSFT+","t":"<"}
-    - {"s":"LSFT+","t":">"}
+    - {"type":"held","s":"LSFT+","t":">"}
     - Bksp
-    - null
+    - {"s":"LSFT+","t":">"}
   L3:
     - null
     - F1
@@ -166,16 +166,18 @@ layers:
     - "3"
     - null
     - null
-    - null
+    - {"s":"LSFT+","t":"<"}
     - Space
     - "TO L0"
     - "TO L0"
     - Bksp
-    - null
+    - {"s":"LSFT+","t":">"}
 combos:
+  - {"k":"TO L3","l":["L0"],"p":[38,39]}
   - {"k":{"s":"LSFT+","t":"("},"l":["L0"],"p":[3,38]}
   - {"k":{"s":"{","t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"s":"LSFT+","t":"{"},"l":["L0"],"p":[27,38]}
   - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"s":"}","t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,39]}
+  - {"k":"TO L3","l":["L0"],"p":[38,39]}
