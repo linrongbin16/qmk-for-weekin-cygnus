@@ -99,7 +99,27 @@ def replace_json_item(line: str, o: typing.Any) -> str:
 
 
 def remove_s_symbols(inputs: list[str]) -> list[str]:
-    RemoveSymbols = ["LSFT+", '"', "_", "+", "{", "}"]
+    RemoveSymbols = [
+        "LSFT+",
+        '"',
+        "_",
+        "+",
+        "{",
+        "}",
+        "TD(0)",
+        "TD(1)",
+        "TD(2)",
+        "TD(3)",
+        "TD(4)",
+        "TD(5)",
+        "TD(6)",
+        "TD(7)",
+        "TD(8)",
+        "TD(9)",
+        "TD(10)",
+        "TD(11)",
+        "TD(12)",
+    ]
     outputs = []
     for line in inputs:
         result = None
