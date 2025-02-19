@@ -13,19 +13,19 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - $$mdi.apple-keyboard-control$$
-    - {"h":"LAlt","s":"TD(0)","t":"A"}
-    - {"h":"LGui","s":"TD(1)","t":"S"}
-    - {"h":"LCtrl","s":"TD(2)","t":"D"}
-    - {"h":"LShift","s":"TD(3)","t":"F"}
+    - Esc
+    - {"h":"$$mdi.apple-keyboard-option$$","s":"TD(0)","t":"A"}
+    - {"h":"$$mdi.apple-keyboard-command$$","s":"TD(1)","t":"S"}
+    - {"h":"$$mdi.apple-keyboard-control$$","s":"TD(2)","t":"D"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","s":"TD(3)","t":"F"}
     - G
     - H
-    - {"h":"RShift","s":"TD(4)","t":"J"}
-    - {"h":"RCtrl","s":"TD(5)","t":"K"}
-    - {"h":"RGui","s":"TD(6)","t":"L"}
-    - {"h":"RAlt","s":"TD(7)","t":":  ;"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","s":"TD(4)","t":"J"}
+    - {"h":"$$mdi.apple-keyboard-control$$","s":"TD(5)","t":"K"}
+    - {"h":"$$mdi.apple-keyboard-command$$","s":"TD(6)","t":"L"}
+    - {"h":"$$mdi.apple-keyboard-option$$","s":"TD(7)","t":":  ;"}
     - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
+    - null
     - Z
     - X
     - C
@@ -36,13 +36,13 @@ layers:
     - {"s":"<","t":","}
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-command$$
+    - null
+    - null
     - $$mdi.keyboard-space$$
-    - "MO L1"
-    - "MO L2"
-    - $$mdi.apple-keyboard-option$$
-    - $$mdi.apple-keyboard-command$$
+    - {"h":"MO L1","s":"TD(8)","t":"<"}
+    - {"h":"MO L2","s":"TD(9)","t":">"}
+    - $$mdi.backspace-outline$$
+    - null
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -56,7 +56,7 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - $$mdi.apple-keyboard-control$$
+    - Esc
     - null
     - null
     - {"t":"'"}
@@ -68,7 +68,7 @@ layers:
     - $$mdi.arrow-right$$
     - null
     - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
+    - null
     - null
     - null
     - {"t":"\""}
@@ -79,13 +79,13 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-command$$
+    - null
+    - null
     - $$mdi.keyboard-space$$
-    - {"t":"<","type":"held"}
+    - {"t":"<"}
     - {"t":">"}
-    - $$mdi.apple-keyboard-option$$
-    - $$mdi.apple-keyboard-command$$
+    - $$mdi.backspace-outline$$
+    - null
   L2:
     - {"t":"~"}
     - {"t":"!"}
@@ -99,7 +99,7 @@ layers:
     - {"t":"("}
     - {"t":")"}
     - null
-    - $$mdi.apple-keyboard-control$$
+    - Esc
     - null
     - null
     - {"t":"'"}
@@ -111,7 +111,7 @@ layers:
     - $$mdi.arrow-right$$
     - null
     - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
+    - null
     - null
     - null
     - {"t":"\""}
@@ -122,61 +122,60 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-command$$
+    - null
+    - null
     - $$mdi.keyboard-space$$
     - {"t":"<"}
-    - {"t":">","type":"held"}
-    - $$mdi.apple-keyboard-option$$
-    - $$mdi.apple-keyboard-command$$
+    - {"t":">"}
+    - $$mdi.backspace-outline$$
+    - null
   L3:
+    - null
     - F1
     - F2
     - F3
     - F4
+    - "+"
+    - "-"
+    - "7"
+    - "8"
+    - "9"
+    - null
+    - null
+    - Esc
     - F5
     - F6
     - F7
     - F8
+    - "*"
+    - "/"
+    - "4"
+    - "5"
+    - "6"
+    - null
+    - $$mdi.keyboard-return$$
+    - null
     - F9
     - F10
     - F11
     - F12
-    - $$mdi.apple-keyboard-control$$
+    - "."
+    - "0"
+    - "1"
+    - "2"
+    - "3"
     - null
     - null
     - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - $$mdi.keyboard-return$$
-    - $$mdi.apple-keyboard-shift$$
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
     - "TO L0"
     - "TO L0"
-    - $$mdi.apple-keyboard-option$$
-    - $$mdi.apple-keyboard-command$$
+    - $$mdi.backspace-outline$$
+    - null
 combos:
-  - {"k":"Esc","l":["L0"],"p":[0,1]}
   - {"k":{"t":"("},"l":["L0"],"p":[3,38]}
+  - {"k":{"t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"t":"{"},"l":["L0"],"p":[27,38]}
   - {"k":{"t":")"},"l":["L0"],"p":[8,39]}
+  - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"t":"}"},"l":["L0"],"p":[32,39]}
-  - {"k":"$$mdi.backspace-outline$$","l":["L0"],"p":[10,11]}
-  - {"k":"TO L3","l":["L0"],"p":[38,39]}

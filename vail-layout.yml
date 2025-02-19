@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - {"s":"|","t":"\\"}
-    - LCtrl
+    - Esc
     - {"h":"LAlt","s":"TD(0)","t":"A"}
     - {"h":"LGui","s":"TD(1)","t":"S"}
     - {"h":"LCtrl","s":"TD(2)","t":"D"}
@@ -25,7 +25,7 @@ layers:
     - {"h":"RGui","s":"TD(6)","t":"L"}
     - {"h":"RAlt","s":"TD(7)","t":":  ;"}
     - Enter
-    - LShift
+    - null
     - Z
     - X
     - C
@@ -36,13 +36,13 @@ layers:
     - {"s":"<","t":","}
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
-    - RShift
-    - LGui
+    - null
+    - null
     - Space
-    - "MO L1"
-    - "MO L2"
-    - RAlt
-    - RGui
+    - {"h":"MO L1","s":"TD(8)","t":"<"}
+    - {"h":"MO L2","s":"TD(9)","t":">"}
+    - Bksp
+    - null
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -56,7 +56,7 @@ layers:
     - {"s":"(","t":"9"}
     - {"s":")","t":"0"}
     - null
-    - LCtrl
+    - Esc
     - null
     - null
     - {"s":"\"","t":"'"}
@@ -68,7 +68,7 @@ layers:
     - Right
     - null
     - Enter
-    - LShift
+    - null
     - null
     - null
     - {"s":"LSFT+","t":"\""}
@@ -79,13 +79,13 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - RShift
-    - LGui
+    - null
+    - null
     - Space
-    - {"type":"held","s":"LSFT+","t":"<"}
+    - {"s":"LSFT+","t":"<"}
     - {"s":"LSFT+","t":">"}
-    - RAlt
-    - RGui
+    - Bksp
+    - null
   L2:
     - {"s":"LSFT+","t":"~"}
     - {"s":"LSFT+","t":"!"}
@@ -99,7 +99,7 @@ layers:
     - {"s":"LSFT+","t":"("}
     - {"s":"LSFT+","t":")"}
     - null
-    - LCtrl
+    - Esc
     - null
     - null
     - {"s":"\"","t":"'"}
@@ -111,7 +111,7 @@ layers:
     - Right
     - null
     - Enter
-    - LShift
+    - null
     - null
     - null
     - {"s":"LSFT+","t":"\""}
@@ -122,61 +122,60 @@ layers:
     - "Page\nUp"
     - End
     - null
-    - RShift
-    - LGui
+    - null
+    - null
     - Space
     - {"s":"LSFT+","t":"<"}
-    - {"type":"held","s":"LSFT+","t":">"}
-    - RAlt
-    - RGui
+    - {"s":"LSFT+","t":">"}
+    - Bksp
+    - null
   L3:
+    - null
     - F1
     - F2
     - F3
     - F4
+    - "+"
+    - "-"
+    - "7"
+    - "8"
+    - "9"
+    - null
+    - null
+    - Esc
     - F5
     - F6
     - F7
     - F8
+    - "*"
+    - "/"
+    - "4"
+    - "5"
+    - "6"
+    - null
+    - Enter
+    - null
     - F9
     - F10
     - F11
     - F12
-    - LCtrl
+    - "."
+    - "0"
+    - "1"
+    - "2"
+    - "3"
     - null
     - null
     - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - Enter
-    - LShift
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - RShift
-    - LGui
     - Space
     - "TO L0"
     - "TO L0"
-    - RAlt
-    - RGui
+    - Bksp
+    - null
 combos:
-  - {"k":"Esc","l":["L0"],"p":[0,1]}
   - {"k":{"s":"LSFT+","t":"("},"l":["L0"],"p":[3,38]}
+  - {"k":{"s":"{","t":"["},"l":["L0"],"p":[15,38]}
   - {"k":{"s":"LSFT+","t":"{"},"l":["L0"],"p":[27,38]}
   - {"k":{"s":"LSFT+","t":")"},"l":["L0"],"p":[8,39]}
+  - {"k":{"s":"}","t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"s":"LSFT+","t":"}"},"l":["L0"],"p":[32,39]}
-  - {"k":"Bksp","l":["L0"],"p":[10,11]}
-  - {"k":"TO L3","l":["L0"],"p":[38,39]}
