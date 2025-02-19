@@ -4,7 +4,8 @@ import json
 import logging
 import typing
 
-KeyIconsMap = {
+
+IconsMap = {
     "LGui": "$$mdi.apple-keyboard-command$$",
     "RGui": "$$mdi.apple-keyboard-command$$",
     "LShift": "$$mdi.apple-keyboard-shift$$",
@@ -28,215 +29,85 @@ KeyIconsMap = {
 }
 
 
-def add_keycode_icons(inputs: list[str]) -> list[str]:
+
+def add_icons(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
-        result = None
-        try:
-            for kname, kicon in KeyIconsMap.items():
-                if line.strip().startswith(f"- {kname }"):
-                    result = line.replace(kname, kicon)
-                    logging.debug(f"Replace mac-style icons: {kname} => {kicon}")
-                    logging.debug(f"Line: {result}")
-                    break
-                elif is_json_item(line):
-                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                    for kname, kicon in KeyIconsMap.items():
-                        if "s" in line_json_data and line_json_data["s"] == kname:
-                            line_json_data["s"] = kicon
-                            result = replace_json_item(line, line_json_data)
-                            logging.debug(
-                                f"Replace mac-style icon for combo: {kname} => {kicon}"
-                            )
-                            logging.debug(f"Line: {result}")
-                        if "t" in line_json_data and line_json_data["t"] == kname:
-                            line_json_data["t"] = kicon
-                            result = replace_json_item(line, line_json_data)
-                            logging.debug(
-                                f"Replace mac-style icon for combo: {kname} => {kicon}"
-                            )
-                            logging.debug(f"Line: {result}")
-                        if "h" in line_json_data and line_json_data["h"] == kname:
-                            line_json_data["h"] = kicon
-                            result = replace_json_item(line, line_json_data)
-                            logging.debug(
-                                f"Replace mac-style icon for combo: {kname} => {kicon}"
-                            )
-                            logging.debug(f"Line: {result}")
-        except Exception as e:
-            logging.error(f"Failed to replace mac-style icons for line: {line}")
-            logging.error(e, exc_info=True)
-
-        if not result:
-            result = line
+        result = line
+        for name, value in IconsMap.items():
+            pattern = f"- {name}"
+            target = f"- {value}"
+            result = result.replace(pattern, target)
+            pattern = '"' + name + '"'
+            target = '"' + value + '"'
+            result = result.replace(pattern, target)
+            logging.debug(f"Add icon:{name} => {value}")
+        logging.debug(result)
         outputs.append(result)
     return outputs
 
 
-def is_json_item(line: str) -> bool:
-    if not line.strip().startswith("-"):
-        return False
-    striped_line = line.strip()
-    if not striped_line[1:].strip().startswith("{"):
-        return False
-    if not striped_line[-1:].strip().startswith("}"):
-        return False
-    return True
+ShiftedMap = ["LSFT+"] + [f"TD({i})" for i in range(30)]
 
 
-def json_to_string(o: typing.Any) -> str:
-    return json.dumps(o, sort_keys=True, separators=(",", ":"))
-
-
-def json_from_string(s: str) -> dict:
-    return json.loads(s)
-
-
-def replace_json_item(line: str, o: typing.Any) -> str:
-    prefix = line.find("-")
-    result = "".join([" " for i in range(prefix)]) + f"- " + json_to_string(o) + "\n"
-    return result
-
-
-def remove_s_symbols(inputs: list[str]) -> list[str]:
-    RemoveSymbols = [
-        "LSFT+",
-        '"',
-        "_",
-        "+",
-        "{",
-        "}",
-        "TD(0)",
-        "TD(1)",
-        "TD(2)",
-        "TD(3)",
-        "TD(4)",
-        "TD(5)",
-        "TD(6)",
-        "TD(7)",
-        "TD(8)",
-        "TD(9)",
-        "TD(10)",
-        "TD(11)",
-        "TD(12)",
-    ]
+def remove_shifted(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
-        result = None
-        if is_json_item(line):
-            try:
-                for symbol in RemoveSymbols:
-                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                    if "s" in line_json_data and line_json_data["s"] == symbol:
-                        line_json_data.pop("s")
-                        result = replace_json_item(line, line_json_data)
-                        logging.debug(f"Remove symbols: {symbol}")
-                        logging.debug(f"Line: {result}")
-                        break
-            except Exception as e:
-                logging.error(f"Failed to remove symbols for line: {line}")
-                logging.error(e, exc_info=True)
-        if not result:
-            result = line
+        result = line
+        for sym in ShiftedMap:
+            target = '"s":"' + sym + '",'
+            result = result.replace(target, "")
+            logging.debug(f"Remove shifted:{target}")
+        logging.debug(result)
         outputs.append(result)
 
     return outputs
 
+ShiftedCombosMap = ShiftedMap + [
+    '"',
+    "_",
+    "+",
+    "{",
+    "}",
+]
 
-def replace_t_symbols(inputs: list[str]) -> list[str]:
-    ReplaceSymbols = {
-        "}  ]": {"t": "]", "s": "}"},
-        "{  [": {"t": "[", "s": "{"},
-        "\"  '": {"t": "'", "s": '"'},
-        ":  ;": {"t": ";", "s": ":"},
-    }
-
-    outputs = []
-    for line in inputs:
-        result = None
-        if is_json_item(line):
-            try:
-                for skey, svalue in ReplaceSymbols.items():
-                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                    if "t" in line_json_data and line_json_data["t"] == skey:
-                        line_json_data["t"] = svalue["t"]
-                        if "s" not in line_json_data or len(line_json_data["s"]) == 0:
-                            line_json_data["s"] = svalue["s"]
-                        result = replace_json_item(line, line_json_data)
-                        logging.debug(f"Replace symbols: {skey} => {svalue}")
-                        logging.debug(f"Line: {result}")
-                        break
-            except Exception as e:
-                logging.error(f"Failed to replace symbols for line: {line}")
-                logging.error(e, exc_info=True)
-        if not result:
-            result = line
-        outputs.append(result)
-
-    return outputs
-
-
-def remove_s_symbols_for_combos(inputs: list[str]) -> list[str]:
-    RemoveSymbols = ["LSFT+", "{", "}"]
-
+def remove_shifted_combos(inputs: list[str]) -> list[str]:
     is_combos = False
     outputs = []
     for line in inputs:
-        result = None
+        result = line
         if line.strip().startswith("combos"):
             is_combos = True
-        if is_combos and is_json_item(line):
-            try:
-                for symbol in RemoveSymbols:
-                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                    if (
-                        "k" in line_json_data
-                        and "s" in line_json_data["k"]
-                        and line_json_data["k"]["s"] == symbol
-                    ):
-                        line_json_data["k"].pop("s")
-                        result = replace_json_item(line, line_json_data)
-                        logging.debug(f"Remove symbols for combo: {symbol}")
-                        logging.debug(f"Line: {result}")
-                        break
-            except Exception as e:
-                logging.error(f"Failed to remove symbols for combo line: {line}")
-                logging.error(e, exc_info=True)
-        if not result:
-            result = line
+        if is_combos:
+            for sym in ShiftedCombosMap:
+                target = '"s":"' + sym + '",'
+                result = result.replace(target, "")
+                logging.debug(f"Remove shifted combo:{target}")
+        logging.debug(result)
         outputs.append(result)
 
     return outputs
 
+TapsMap = {
+    "}  ]": {"t": "]", "s": "}"},
+    "{  [": {"t": "[", "s": "{"},
+    "\"  '": {"t": "'", "s": '"'},
+    ":  ;": {"t": ";", "s": ":"},
+    "+  =": {"t": "=", "s": "+"},
+}
 
-def add_keycode_icons_for_combos(inputs: list[str]) -> list[str]:
-    is_combos = False
+def replace_taps(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
-        result = None
-        if line.strip().startswith("combos"):
-            is_combos = True
-        if is_combos and is_json_item(line):
-            try:
-                line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                for kname, kicon in KeyIconsMap.items():
-                    if "k" in line_json_data and line_json_data["k"] == kname:
-                        line_json_data["k"] = kicon
-                        result = replace_json_item(line, line_json_data)
-                        logging.debug(
-                            f"Replace mac-style icon for combo: {kname} => {kicon}"
-                        )
-                        logging.debug(f"Line: {result}")
-                        break
-            except Exception as e:
-                logging.error(
-                    f"Failed to replace mac-style icon for combo line: {line}"
-                )
-                logging.error(e, exc_info=True)
-
-        if not result:
-            result = line
+        result = line
+        for name, value in TapsMap.items():
+            pattern = '"t":"' + name + '"'
+            target = '"s":"' + value["s"] + '","t":"' + value["t"] + '"'
+            result = result.replace(pattern, target)
+            logging.debug(f"Replace tap:{name} => {value}")
+        logging.debug(result)
         outputs.append(result)
+
     return outputs
 
 
@@ -244,10 +115,9 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
     with open("vail-layout.yml", "r") as src:
         lines = src.readlines()
-        lines = add_keycode_icons(lines)
-        lines = remove_s_symbols(lines)
-        lines = replace_t_symbols(lines)
-        lines = remove_s_symbols_for_combos(lines)
-        lines = add_keycode_icons_for_combos(lines)
+        lines = remove_shifted(lines)
+        lines = remove_shifted_combos(lines)
+        lines = add_icons(lines)
+        lines = replace_taps(lines)
         with open("vail-layout-processed.yml", "w") as dst:
             dst.writelines(lines)
