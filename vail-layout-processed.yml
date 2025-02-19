@@ -23,7 +23,7 @@ layers:
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"J"}
     - {"h":"$$mdi.apple-keyboard-control$$","t":"K"}
     - {"h":"$$mdi.apple-keyboard-command$$","t":"L"}
-    - {"h":"$$mdi.apple-keyboard-option$$","s":";","t":":"}
+    - {"h":"$$mdi.apple-keyboard-option$$","s":":","t":";"}
     - $$mdi.keyboard-return$$
     - null
     - Z
