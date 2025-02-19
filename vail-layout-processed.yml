@@ -73,8 +73,8 @@ layers:
     - null
     - $$mdi.arrow-down$$
     - null
-    - "Page\n$$mdi.arrow-down$$"
-    - "Page\n$$mdi.arrow-up$$"
+    - "Page\nDown"
+    - "Page\nUp"
     - null
     - null
     - null
@@ -116,8 +116,8 @@ layers:
     - null
     - $$mdi.arrow-down$$
     - null
-    - "Page\n$$mdi.arrow-down$$"
-    - "Page\n$$mdi.arrow-up$$"
+    - "Page\nDown"
+    - "Page\nUp"
     - null
     - null
     - null
