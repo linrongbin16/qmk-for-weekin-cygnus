@@ -4,7 +4,6 @@ import json
 import logging
 import typing
 
-
 KeyIconsMap = {
     "LGui": "$$mdi.apple-keyboard-command$$",
     "RGui": "$$mdi.apple-keyboard-command$$",
@@ -28,6 +27,7 @@ KeyIconsMap = {
     "Right": "$$mdi.arrow-right$$",
 }
 
+
 def add_keycode_icons(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
@@ -39,6 +39,30 @@ def add_keycode_icons(inputs: list[str]) -> list[str]:
                     logging.debug(f"Replace mac-style icons: {kname} => {kicon}")
                     logging.debug(f"Line: {result}")
                     break
+                elif is_json_item(line):
+                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
+                    for kname, kicon in KeyIconsMap.items():
+                        if "s" in line_json_data and line_json_data["s"] == kname:
+                            line_json_data["s"] = kicon
+                            result = replace_json_item(line, line_json_data)
+                            logging.debug(
+                                f"Replace mac-style icon for combo: {kname} => {kicon}"
+                            )
+                            logging.debug(f"Line: {result}")
+                        if "t" in line_json_data and line_json_data["t"] == kname:
+                            line_json_data["t"] = kicon
+                            result = replace_json_item(line, line_json_data)
+                            logging.debug(
+                                f"Replace mac-style icon for combo: {kname} => {kicon}"
+                            )
+                            logging.debug(f"Line: {result}")
+                        if "h" in line_json_data and line_json_data["h"] == kname:
+                            line_json_data["h"] = kicon
+                            result = replace_json_item(line, line_json_data)
+                            logging.debug(
+                                f"Replace mac-style icon for combo: {kname} => {kicon}"
+                            )
+                            logging.debug(f"Line: {result}")
         except Exception as e:
             logging.error(f"Failed to replace mac-style icons for line: {line}")
             logging.error(e, exc_info=True)
@@ -169,24 +193,25 @@ def add_keycode_icons_for_combos(inputs: list[str]) -> list[str]:
             try:
                 line_json_data = json_from_string(line.replace("-", "", 1).strip())
                 for kname, kicon in KeyIconsMap.items():
-                    if (
-                        "k" in line_json_data
-                        and line_json_data["k"] == kname
-                    ):
+                    if "k" in line_json_data and line_json_data["k"] == kname:
                         line_json_data["k"] = kicon
                         result = replace_json_item(line, line_json_data)
-                        logging.debug(f"Replace mac-style icon for combo: {kname} => {kicon}")
+                        logging.debug(
+                            f"Replace mac-style icon for combo: {kname} => {kicon}"
+                        )
                         logging.debug(f"Line: {result}")
                         break
             except Exception as e:
-                logging.error(f"Failed to replace mac-style icon for combo line: {line}")
+                logging.error(
+                    f"Failed to replace mac-style icon for combo line: {line}"
+                )
                 logging.error(e, exc_info=True)
- 
+
         if not result:
             result = line
         outputs.append(result)
     return outputs
-    
+
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s - %(message)s", level=logging.DEBUG)
