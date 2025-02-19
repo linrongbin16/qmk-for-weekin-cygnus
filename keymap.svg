@@ -356,7 +356,6 @@ svg.keymap {
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&lt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -381,7 +380,6 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&gt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g class="combo combopos-0">
 <path d="M420,224 l-50,0" class="combo"/>
@@ -396,7 +394,6 @@ svg.keymap {
 <path d="M274,126 l66,83" class="combo"/>
 <rect rx="6" ry="6" x="260" y="113" width="28" height="26" class="combo"/>
 <text x="274" y="126" class="combo tap">(</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="269" y="116" height="10" width="10.0" class="combo shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g class="combo combopos-2">
 <path d="M274,154 l-64,-58" class="combo"/>
@@ -409,14 +406,12 @@ svg.keymap {
 <path d="M274,182 l61,33" class="combo"/>
 <rect rx="6" ry="6" x="260" y="169" width="28" height="26" class="combo"/>
 <text x="274" y="182" class="combo tap">{</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="269" y="172" height="10" width="10.0" class="combo shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g class="combo combopos-4">
 <path d="M566,126 l66,-83" class="combo"/>
 <path d="M566,126 l-66,83" class="combo"/>
 <rect rx="6" ry="6" x="552" y="113" width="28" height="26" class="combo"/>
 <text x="566" y="126" class="combo tap">)</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="561" y="116" height="10" width="10.0" class="combo shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g class="combo combopos-5">
 <path d="M566,154 l64,-58" class="combo"/>
@@ -429,7 +424,6 @@ svg.keymap {
 <path d="M566,182 l-61,33" class="combo"/>
 <rect rx="6" ry="6" x="552" y="169" width="28" height="26" class="combo"/>
 <text x="566" y="182" class="combo tap">}</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="561" y="172" height="10" width="10.0" class="combo shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g class="combo combopos-7">
 <path d="M420,224 l-50,0" class="combo"/>
@@ -600,7 +594,6 @@ svg.keymap {
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&lt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -614,7 +607,6 @@ svg.keymap {
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">&quot;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-37" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -623,7 +615,6 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&gt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 </g>
 </g>
@@ -633,57 +624,46 @@ svg.keymap {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">~</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">!</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">@</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">#</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">$</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">%</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">^</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(588, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&amp;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">*</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">(</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(756, 49)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">)</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(812, 49)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -786,7 +766,6 @@ svg.keymap {
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&lt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -800,7 +779,6 @@ svg.keymap {
 <g transform="translate(489, 224) rotate(-30.0)" class="key held keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
 <text x="0" y="0" class="key held tap">&quot;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-37" height="10" width="10.0" class="key held shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -809,7 +787,6 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&gt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 </g>
 </g>
@@ -956,7 +933,6 @@ svg.keymap {
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&lt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -981,7 +957,6 @@ svg.keymap {
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&gt;</text>
-<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-5" y="-23" height="10" width="10.0" class="key shifted glyph mdi.apple-keyboard-shift"/>
 </g>
 </g>
 </g>

@@ -37,12 +37,12 @@ layers:
     - {"s":">","t":"."}
     - {"s":"?","t":"/"}
     - null
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - {"t":"<"}
     - $$mdi.keyboard-space$$
     - "MO L1"
     - "MO L2"
     - $$mdi.backspace-outline$$
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
+    - {"t":">"}
   L1:
     - {"s":"~","t":"`"}
     - {"s":"!","t":"1"}
@@ -80,24 +80,24 @@ layers:
     - null
     - End
     - null
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - {"t":"<"}
     - $$mdi.keyboard-space$$
     - {"type":"held","s":"\"","t":"'"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"\""}
+    - {"t":"\""}
     - $$mdi.backspace-outline$$
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
+    - {"t":">"}
   L2:
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"~"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"!"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"@"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"#"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"$"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"%"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"^"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"&"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"*"}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"("}
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":")"}
+    - {"t":"~"}
+    - {"t":"!"}
+    - {"t":"@"}
+    - {"t":"#"}
+    - {"t":"$"}
+    - {"t":"%"}
+    - {"t":"^"}
+    - {"t":"&"}
+    - {"t":"*"}
+    - {"t":"("}
+    - {"t":")"}
     - null
     - Esc
     - $$mdi.apple-keyboard-option$$
@@ -123,12 +123,12 @@ layers:
     - null
     - End
     - null
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - {"t":"<"}
     - $$mdi.keyboard-space$$
     - {"s":"\"","t":"'"}
-    - {"type":"held","s":"$$mdi.apple-keyboard-shift$$+","t":"\""}
+    - {"type":"held","t":"\""}
     - $$mdi.backspace-outline$$
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
+    - {"t":">"}
   L3:
     - null
     - F1
@@ -166,18 +166,18 @@ layers:
     - "3"
     - null
     - null
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":"<"}
+    - {"t":"<"}
     - $$mdi.keyboard-space$$
     - "TO L0"
     - "TO L0"
     - $$mdi.backspace-outline$$
-    - {"s":"$$mdi.apple-keyboard-shift$$+","t":">"}
+    - {"t":">"}
 combos:
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
-  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"("},"l":["L0"],"p":[3,38]}
+  - {"k":{"t":"("},"l":["L0"],"p":[3,38]}
   - {"k":{"t":"["},"l":["L0"],"p":[15,38]}
-  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"{"},"l":["L0"],"p":[27,38]}
-  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":")"},"l":["L0"],"p":[8,39]}
+  - {"k":{"t":"{"},"l":["L0"],"p":[27,38]}
+  - {"k":{"t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
-  - {"k":{"s":"$$mdi.apple-keyboard-shift$$+","t":"}"},"l":["L0"],"p":[32,39]}
+  - {"k":{"t":"}"},"l":["L0"],"p":[32,39]}
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
