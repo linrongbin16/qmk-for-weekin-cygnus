@@ -84,10 +84,11 @@ def remove_shifted_combos(inputs: list[str]) -> list[str]:
     return outputs
 
 TapsMap = {
-        "}  ]": {"t": "]", "s": "}"},
-        "{  [": {"t": "[", "s": "{"},
-        "\"  '": {"t": "'", "s": '"'},
-        ":  ;": {"t": ";", "s": ":"},
+    "}  ]": {"t": "]", "s": "}"},
+    "{  [": {"t": "[", "s": "{"},
+    "\"  '": {"t": "'", "s": '"'},
+    ":  ;": {"t": ";", "s": ":"},
+    "+  =": {"t": "=", "s": "+"},
 }
 
 def replace_taps(inputs: list[str]) -> list[str]:
