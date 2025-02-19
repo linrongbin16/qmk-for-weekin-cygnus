@@ -144,7 +144,12 @@ def remove_s_symbols(inputs: list[str]) -> list[str]:
 
 
 def replace_t_symbols(inputs: list[str]) -> list[str]:
-    ReplaceSymbols = {"}  ]": "]", "{  [": "[", "\"  '": "'"}
+    ReplaceSymbols = {
+        "}  ]": {"t": "]", "s": "}"},
+        "{  [": {"t": "[", "s": "{"},
+        "\"  '": {"t": "'", "s": '"'},
+        ":  ;": {"t": ":", "s": ";"},
+    }
 
     outputs = []
     for line in inputs:
@@ -154,7 +159,9 @@ def replace_t_symbols(inputs: list[str]) -> list[str]:
                 for skey, svalue in ReplaceSymbols.items():
                     line_json_data = json_from_string(line.replace("-", "", 1).strip())
                     if "t" in line_json_data and line_json_data["t"] == skey:
-                        line_json_data["t"] = svalue
+                        line_json_data["t"] = svalue["t"]
+                        if "s" not in line_json_data or len(line_json_data["s"]) == 0:
+                            line_json_data["s"] = svalue["s"]
                         result = replace_json_item(line, line_json_data)
                         logging.debug(f"Replace symbols: {skey} => {svalue}")
                         logging.debug(f"Line: {result}")
