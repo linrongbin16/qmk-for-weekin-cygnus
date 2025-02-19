@@ -35,7 +35,12 @@ def add_icons(inputs: list[str]) -> list[str]:
     for line in inputs:
         result = line
         for name, value in IconsMap.items():
-            result = result.replace(name, value)
+            pattern = f"- {name}"
+            target = f"- {value}"
+            result = result.replace(pattern, target)
+            pattern = '"' + name + '"'
+            target = '"' + value + '"'
+            result = result.replace(pattern, target)
             logging.debug(f"Add icon:{name} => {value}")
         logging.debug(result)
         outputs.append(result)
