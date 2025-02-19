@@ -57,16 +57,16 @@ layers:
     - {"s":")","t":"0"}
     - null
     - Esc
-    - null
-    - $$mdi.arrow-left$$
-    - $$mdi.arrow-up$$
-    - $$mdi.arrow-right$$
+    - $$mdi.apple-keyboard-option$$
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"$$mdi.arrow-left$$"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
     - {"t":"-"}
-    - {"t":"_"}
-    - {"t":"="}
-    - {"t":"+"}
-    - null
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-command$$","s":"TD(13)","t":"+"}
+    - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - null
     - Home
@@ -100,16 +100,16 @@ layers:
     - {"t":")"}
     - null
     - Esc
-    - null
-    - $$mdi.arrow-left$$
-    - $$mdi.arrow-up$$
-    - $$mdi.arrow-right$$
+    - $$mdi.apple-keyboard-option$$
+    - {"h":"$$mdi.apple-keyboard-command$$","t":"$$mdi.arrow-left$$"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
     - {"t":"-"}
-    - {"t":"_"}
-    - {"t":"="}
-    - {"t":"+"}
-    - null
+    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
+    - {"h":"$$mdi.apple-keyboard-control$$","t":"+  ="}
+    - {"h":"$$mdi.apple-keyboard-command$$","s":"TD(13)","t":"+"}
+    - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - null
     - Home

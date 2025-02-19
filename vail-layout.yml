@@ -57,16 +57,16 @@ layers:
     - {"s":")","t":"0"}
     - null
     - Esc
-    - null
-    - Left
-    - Up
-    - Right
+    - LAlt
+    - {"h":"LGui","s":"TD(8)","t":"Left"}
+    - {"h":"LCtrl","s":"TD(9)","t":"Up"}
+    - {"h":"LShift","s":"TD(10)","t":"Right"}
     - null
     - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"+","t":"="}
-    - {"s":"LSFT+","t":"+"}
-    - null
+    - {"h":"RShift","s":"TD(11)","t":"_"}
+    - {"h":"RCtrl","s":"TD(12)","t":"+  ="}
+    - {"h":"RGui","s":"TD(13)","t":"+"}
+    - RAlt
     - Enter
     - null
     - Home
@@ -100,16 +100,16 @@ layers:
     - {"s":"LSFT+","t":")"}
     - null
     - Esc
-    - null
-    - Left
-    - Up
-    - Right
+    - LAlt
+    - {"h":"LGui","s":"TD(8)","t":"Left"}
+    - {"h":"LCtrl","s":"TD(9)","t":"Up"}
+    - {"h":"LShift","s":"TD(10)","t":"Right"}
     - null
     - {"s":"_","t":"-"}
-    - {"s":"LSFT+","t":"_"}
-    - {"s":"+","t":"="}
-    - {"s":"LSFT+","t":"+"}
-    - null
+    - {"h":"RShift","s":"TD(11)","t":"_"}
+    - {"h":"RCtrl","s":"TD(12)","t":"+  ="}
+    - {"h":"RGui","s":"TD(13)","t":"+"}
+    - RAlt
     - Enter
     - null
     - Home

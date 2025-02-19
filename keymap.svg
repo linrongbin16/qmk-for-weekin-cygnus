@@ -502,18 +502,22 @@ svg.keymap {
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi.apple-keyboard-option" xlink:href="#mdi.apple-keyboard-option" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.apple-keyboard-option"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-left" xlink:href="#mdi.arrow-left" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-left"/>
+<use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-command"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-up" xlink:href="#mdi.arrow-up" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-up"/>
+<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-right" xlink:href="#mdi.arrow-right" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-right"/>
+<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -525,17 +529,22 @@ svg.keymap {
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">_</text>
+<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">=</text>
+<text x="0" y="0" class="key tap">+ =</text>
+<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
+<use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-command"/>
+<text x="0" y="-23" class="key shifted">TD(13)</text>
 </g>
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi.apple-keyboard-option" xlink:href="#mdi.apple-keyboard-option" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.apple-keyboard-option"/>
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -668,18 +677,22 @@ svg.keymap {
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi.apple-keyboard-option" xlink:href="#mdi.apple-keyboard-option" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.apple-keyboard-option"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-left" xlink:href="#mdi.arrow-left" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-left"/>
+<use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-command"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-up" xlink:href="#mdi.arrow-up" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-up"/>
+<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi.arrow-right" xlink:href="#mdi.arrow-right" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.arrow-right"/>
+<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -691,17 +704,22 @@ svg.keymap {
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">_</text>
+<use href="#mdi.apple-keyboard-shift" xlink:href="#mdi.apple-keyboard-shift" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-shift"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">=</text>
+<text x="0" y="0" class="key tap">+ =</text>
+<use href="#mdi.apple-keyboard-control" xlink:href="#mdi.apple-keyboard-control" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-control"/>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
+<use href="#mdi.apple-keyboard-command" xlink:href="#mdi.apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi.apple-keyboard-command"/>
+<text x="0" y="-23" class="key shifted">TD(13)</text>
 </g>
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi.apple-keyboard-option" xlink:href="#mdi.apple-keyboard-option" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi.apple-keyboard-option"/>
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
