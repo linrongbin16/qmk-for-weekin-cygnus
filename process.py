@@ -5,7 +5,7 @@ import logging
 import typing
 
 
-KeyboardIconsMap = {
+IconsMap = {
     "LGui": "$$mdi.apple-keyboard-command$$",
     "RGui": "$$mdi.apple-keyboard-command$$",
     "LShift": "$$mdi.apple-keyboard-shift$$",
@@ -34,7 +34,7 @@ def add_icons(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
         result = line
-        for name, value in KeyboardIconsMap.items():
+        for name, value in IconsMap.items():
             result = line.replace(name, value)
         outputs.append(result)
     return outputs
@@ -88,23 +88,9 @@ def replace_tap_symbols(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
         result = line
-        if is_json_item(line):
-            try:
-                for skey, svalue in ReplaceSymbols.items():
-                    line_json_data = json_from_string(line.replace("-", "", 1).strip())
-                    if "t" in line_json_data and line_json_data["t"] == skey:
-                        line_json_data["t"] = svalue["t"]
-                        if "s" not in line_json_data or len(line_json_data["s"]) == 0:
-                            line_json_data["s"] = svalue["s"]
-                        result = replace_json_item(line, line_json_data)
-                        logging.debug(f"Replace symbols: {skey} => {svalue}")
-                        logging.debug(f"Line: {result}")
-                        break
-            except Exception as e:
-                logging.error(f"Failed to replace symbols for line: {line}")
-                logging.error(e, exc_info=True)
-        if not result:
-            result = line
+        for sym in RemoveShiftedCombosMap:
+            target = '"s":"' + sym + ','
+            result = line.replace(target, "")
         outputs.append(result)
 
     return outputs
