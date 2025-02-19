@@ -54,7 +54,7 @@ def remove_shifted(inputs: list[str]) -> list[str]:
 
     return outputs
 
-ShiftedCombosMap = RemoveShiftedMap + [
+ShiftedCombosMap = ShiftedMap + [
     '"',
     "_",
     "+",
