@@ -426,18 +426,30 @@ svg.keymap {
 <text x="566" y="182" class="combo tap">}</text>
 </g>
 <g class="combo combopos-7">
+<path d="M302,158 l-38,-52" class="combo"/>
+<path d="M302,158 l38,52" class="combo"/>
+<rect rx="6" ry="6" x="288" y="145" width="28" height="26" class="combo"/>
+<text x="302" y="158" class="combo tap">-</text>
+</g>
+<g class="combo combopos-8">
 <path d="M302,130 l-41,-78" class="combo"/>
 <path d="M302,130 l41,78" class="combo"/>
 <rect rx="6" ry="6" x="288" y="117" width="28" height="26" class="combo"/>
 <text x="302" y="130" class="combo tap">_</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
+<path d="M538,158 l38,-52" class="combo"/>
+<path d="M538,158 l-38,52" class="combo"/>
+<rect rx="6" ry="6" x="524" y="145" width="28" height="26" class="combo"/>
+<text x="538" y="158" class="combo tap">=</text>
+</g>
+<g class="combo combopos-10">
 <path d="M538,130 l41,-78" class="combo"/>
 <path d="M538,130 l-41,78" class="combo"/>
 <rect rx="6" ry="6" x="524" y="117" width="28" height="26" class="combo"/>
 <text x="538" y="130" class="combo tap">+</text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-11">
 <path d="M420,224 l-50,0" class="combo"/>
 <path d="M420,224 l50,0" class="combo"/>
 <rect rx="6" ry="6" x="406" y="211" width="28" height="26" class="combo"/>
