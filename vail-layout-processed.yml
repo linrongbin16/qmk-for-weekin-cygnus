@@ -62,10 +62,10 @@ layers:
     - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
-    - {"s":"_","t":"-"}
-    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
-    - {"h":"$$mdi.apple-keyboard-control$$","s":"+","t":"="}
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
+    - null
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-control$$
+    - $$mdi.apple-keyboard-command$$
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - null
@@ -105,10 +105,10 @@ layers:
     - {"h":"$$mdi.apple-keyboard-control$$","t":"$$mdi.arrow-up$$"}
     - {"h":"$$mdi.apple-keyboard-shift$$","t":"$$mdi.arrow-right$$"}
     - null
-    - {"s":"_","t":"-"}
-    - {"h":"$$mdi.apple-keyboard-shift$$","t":"_"}
-    - {"h":"$$mdi.apple-keyboard-control$$","s":"+","t":"="}
-    - {"h":"$$mdi.apple-keyboard-command$$","t":"+"}
+    - null
+    - $$mdi.apple-keyboard-shift$$
+    - $$mdi.apple-keyboard-control$$
+    - $$mdi.apple-keyboard-command$$
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - null
@@ -180,4 +180,6 @@ combos:
   - {"k":{"t":")"},"l":["L0"],"p":[8,39]}
   - {"k":{"t":"]"},"l":["L0"],"p":[20,39]}
   - {"k":{"t":"}"},"l":["L0"],"p":[32,39]}
+  - {"k":{"t":"_"},"l":["L0"],"p":[4,38]}
+  - {"k":{"t":"+"},"l":["L0"],"p":[7,39]}
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
