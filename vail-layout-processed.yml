@@ -63,27 +63,27 @@ layers:
     - $$mdi.arrow-right$$
     - null
     - null
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-control$$
-    - $$mdi.apple-keyboard-command$$
+    - {"s":"\"","t":"'"}
+    - {"t":"\""}
+    - null
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-option$$
     - Home
+    - null
     - $$mdi.arrow-down$$
     - null
     - "Page\nDown"
     - "Page\nUp"
     - null
     - null
+    - null
     - End
-    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
-    - {"type":"held","s":"\"","t":"'"}
-    - {"t":"\""}
+    - {"type":"held","t":"Esc"}
+    - Esc
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
   L2:
@@ -106,27 +106,27 @@ layers:
     - $$mdi.arrow-right$$
     - null
     - null
-    - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-control$$
-    - $$mdi.apple-keyboard-command$$
+    - {"s":"\"","t":"'"}
+    - {"t":"\""}
+    - null
     - $$mdi.apple-keyboard-option$$
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
-    - $$mdi.apple-keyboard-option$$
     - Home
+    - null
     - $$mdi.arrow-down$$
     - null
     - "Page\nDown"
     - "Page\nUp"
     - null
     - null
+    - null
     - End
-    - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
     - $$mdi.keyboard-space$$
-    - {"s":"\"","t":"'"}
-    - {"type":"held","t":"\""}
+    - Esc
+    - {"type":"held","t":"Esc"}
     - $$mdi.backspace-outline$$
     - $$mdi.apple-keyboard-command$$
   L3:
@@ -184,7 +184,6 @@ combos:
   - {"k":{"t":"_"},"l":["L0"],"p":[4,38]}
   - {"k":{"t":"="},"l":["L0"],"p":[19,39]}
   - {"k":{"t":"+"},"l":["L0"],"p":[7,39]}
-  - {"k":"Esc","l":["L0"],"p":[0,1]}
   - {"k":{"t":"<"},"l":["L0"],"p":[28,38]}
   - {"k":{"t":">"},"l":["L0"],"p":[31,39]}
   - {"k":"TO L3","l":["L0"],"p":[38,39]}
