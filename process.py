@@ -4,7 +4,6 @@ import json
 import logging
 import typing
 
-
 IconsMap = {
     "LGui": "$$mdi.apple-keyboard-command$$",
     "RGui": "$$mdi.apple-keyboard-command$$",
@@ -26,8 +25,13 @@ IconsMap = {
     "Up": "$$mdi.arrow-up$$",
     "Down": "$$mdi.arrow-down$$",
     "Right": "$$mdi.arrow-right$$",
+    "USER00": "U00",
+    "USER01": "U01",
+    "USER02": "U02",
+    "USER03": "U03",
+    "USER04": "U04",
+    "USER05": "U05",
 }
-
 
 
 def add_icons(inputs: list[str]) -> list[str]:
@@ -41,8 +45,7 @@ def add_icons(inputs: list[str]) -> list[str]:
             pattern = '"' + name + '"'
             target = '"' + value + '"'
             result = result.replace(pattern, target)
-            logging.debug(f"Add icon:{name} => {value}")
-        logging.debug(result)
+        logging.debug(f"Add icon:{result}")
         outputs.append(result)
     return outputs
 
@@ -57,11 +60,11 @@ def remove_shifted(inputs: list[str]) -> list[str]:
         for sym in ShiftedMap:
             target = '"s":"' + sym + '",'
             result = result.replace(target, "")
-            logging.debug(f"Remove shifted:{target}")
-        logging.debug(result)
+        logging.debug(f"Remove shifted:{result}")
         outputs.append(result)
 
     return outputs
+
 
 ShiftedCombosMap = ShiftedMap + [
     '"',
@@ -70,6 +73,7 @@ ShiftedCombosMap = ShiftedMap + [
     "{",
     "}",
 ]
+
 
 def remove_shifted_combos(inputs: list[str]) -> list[str]:
     is_combos = False
@@ -82,11 +86,11 @@ def remove_shifted_combos(inputs: list[str]) -> list[str]:
             for sym in ShiftedCombosMap:
                 target = '"s":"' + sym + '",'
                 result = result.replace(target, "")
-                logging.debug(f"Remove shifted combo:{target}")
-        logging.debug(result)
+        logging.debug(f"Remove shifted combo:{result}")
         outputs.append(result)
 
     return outputs
+
 
 TapsMap = {
     "}  ]": {"t": "]", "s": "}"},
@@ -96,6 +100,7 @@ TapsMap = {
     "+  =": {"t": "=", "s": "+"},
 }
 
+
 def replace_taps(inputs: list[str]) -> list[str]:
     outputs = []
     for line in inputs:
@@ -104,8 +109,7 @@ def replace_taps(inputs: list[str]) -> list[str]:
             pattern = '"t":"' + name + '"'
             target = '"s":"' + value["s"] + '","t":"' + value["t"] + '"'
             result = result.replace(pattern, target)
-            logging.debug(f"Replace tap:{name} => {value}")
-        logging.debug(result)
+        logging.debug(f"Replace tap:{result}")
         outputs.append(result)
 
     return outputs
