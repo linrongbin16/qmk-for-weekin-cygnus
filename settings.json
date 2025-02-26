@@ -33,7 +33,14 @@
       "\"Left\" => $$mdi.arrow-left$$",
       "\"Up\" => $$mdi.arrow-up$$",
       "\"Down\" => $$mdi.arrow-down$$",
-      "\"Right\" => $$mdi.arrow-right$$"
+      "\"Right\" => $$mdi.arrow-right$$",
+      "\"USER00\" => U00",
+      "\"USER01\" => U01",
+      "\"USER02\" => U02",
+      "\"USER03\" => U03",
+      "\"USER04\" => U04",
+      "\"USER05\" => U05",
+      "\"USER06\" => U06"
     ],
     "mark-non-keys": ""
   }
