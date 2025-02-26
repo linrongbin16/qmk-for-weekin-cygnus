@@ -65,7 +65,7 @@ layers:
     - null
     - {"s":"\"","t":"'"}
     - {"t":"\""}
-    - USER00
+    - U00
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
@@ -75,9 +75,9 @@ layers:
     - End
     - "Page\nDown"
     - null
-    - USER01
-    - USER02
-    - USER03
+    - U01
+    - U02
+    - U03
     - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
@@ -108,7 +108,7 @@ layers:
     - null
     - {"s":"\"","t":"'"}
     - {"t":"\""}
-    - USER00
+    - U00
     - null
     - $$mdi.keyboard-return$$
     - $$mdi.apple-keyboard-shift$$
@@ -118,9 +118,9 @@ layers:
     - End
     - "Page\nDown"
     - null
-    - USER01
-    - USER02
-    - USER03
+    - U01
+    - U02
+    - U03
     - $$mdi.apple-keyboard-option$$
     - $$mdi.apple-keyboard-shift$$
     - $$mdi.apple-keyboard-command$$
